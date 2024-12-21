@@ -1,0 +1,242 @@
+{
+  "id": "fifthpendium",
+  "title": "🍔 Fifthpendium - D&D 2024",
+  "version": "2.2.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.1.0",
+          "verified": "4.1.1",
+          "maximum": "4.1.9"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Заклинания, классы, подклассы, виды, предметы и монстры из 5-ой редакции D&amp;D 2024 года выпуска - всё это вы сможете найти в этом компендиуме.\nВ модуле реализовано переключение между несколькими переводами.",
+  "authors": [
+    {
+      "name": "SweetyHake",
+      "email": "sweetyhake@gmail.com",
+      "discord": "sweetyhake",
+      "url": "https://boosty.to/sweetyhake",
+      "flags": {}
+    },
+    {
+      "name": "Scorpio",
+      "discord": "scowpio",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "🍔 Fifthpendium - D&D 2024",
+      "sorting": "m",
+      "color": "#9e4700",
+      "packs": [
+        "skills-and-etc",
+        "creatures",
+        "info",
+        "macros",
+        "spells",
+        "items",
+        "bastion",
+        "tables"
+      ],
+      "folders": [        {
+        "name": "Книги",
+        "sorting": "m",
+        "color": "#9e4700",
+        "folders": [],
+        "packs": [
+          "phb",
+          "dmg"
+        ]
+      }]
+    }
+  ],
+  "packs": [
+    {
+      "name": "skills-and-etc",
+      "label": "Персонаж",
+      "banner": "modules/fifthpendium/misc/ui/character.webp",
+      "path": "packs/skills-and-etc",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "info",
+      "label": "Справочник",
+      "banner": "modules/fifthpendium/misc/ui/manual.webp",
+      "path": "packs/info",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Существа",
+      "banner": "modules/fifthpendium/misc/ui/creatures.webp",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Таблицы",
+      "banner": "modules/fifthpendium/misc/ui/tables.webp",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Макросы",
+      "banner": "modules/fifthpendium/misc/ui/macros.webp",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Заклинания",
+      "banner": "modules/fifthpendium/misc/ui/spell.webp",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Снаряжение",
+      "banner": "modules/fifthpendium/misc/ui/equipment.webp",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bastion",
+      "label": "Бастион",
+      "banner": "modules/fifthpendium/misc/ui/bastion.webp",
+      "path": "packs/bastion",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "phb",
+      "label": "Player's Handbook 2024",
+      "path": "packs/phb",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "dmg",
+      "label": "Dungeon Master's Guide 2024",
+      "path": "packs/dmg",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {
+        "display": "table-of-contents"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": [
+    "scripts/updateinfo.js",
+    "scripts/analytics.js",
+    "scripts/translation.js"
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/fifthpendium/misc/ui/fifthpendiumlogo.webp",
+      "thumbnail": "modules/fifthpendium/misc/ui/fifthpendiumlogo.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://www.dropbox.com/scl/fi/a6ltj9kxwemtxv2xuhc15/module.json?rlkey=v47ow6chagy67c7cuac4dzfjw&st=e7naxkw0&dl=1",
+  "download": "https://www.dropbox.com/scl/fi/ioak3mjg25ngzuigrjdvy/Fifthpendium.zip?rlkey=vxd15omof1gpybvh70qi1myw3&st=7g61c3ds&dl=1",
+  "url": "https://boosty.to/sweetyhake/posts/4ac8ef36-ff94-41b6-abe5-b1f293a42509",
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.huJkgia3mIBIdcLk",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.7T3tFLosqo80vlPV",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.89Z3h0CDYPCdQm6l",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.8Tktfn0H4PJebQzG",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.u4xF2Akik62HBONZ",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.IRdFOdt69FkHwWGg",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.7aSeq7orCKpkvw9j",
+        "Compendium.fifthpendium.info.JournalEntry.A2z7WNmLa2w6xuKv.JournalEntryPage.khbBK3IRiS87e9vV"
+      ]
+    }
+  }
+}
