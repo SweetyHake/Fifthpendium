@@ -3254,7 +3254,7 @@
     {
       "id": "xsbaDn1qfEW50fRs",
       "name": "Дар навыка [Epic Boon of Skill Proficiency]",
-      "description": "<p><em style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track)\"><strong>Требование:</strong> Уровень 19</em></p><p>Вы получаете следующие преимущества:</p><ul><li><p><em><strong>Увеличение характеристик.</strong></em> Увеличьте показатель одной вашей характеристики по выбору на 1, максимум до 30.</p></li><li><p><em><strong>Всесторонний мастер.</strong></em> Вы получаете владение всеми навыками.</p></li><li><em><strong>&amp;Reference[expertise].</strong></em> Выберите один навык, в котором у вас нет компетентности. Вы получаете &Reference[expertise]{компентентность} в этом навыке.</li></ul>"
+      "description": "<p><em><strong>Требование:</strong> Уровень 19</em></p> <p>Вы получаете следующие преимущества:</p> <ul> <li> <p><em><strong>Увеличение характеристик.</strong></em> Увеличьте показатель одной вашей характеристики по выбору на 1, максимум до 30.</p> </li> <li> <p><em><strong>Всесторонний мастер.</strong></em> Вы получаете владение всеми навыками.</p> </li> <li><em><strong>Компетентность.</strong></em> Выберите один навык, в котором у вас нет компетентности. Вы получаете &Reference[expertise]{компентентность} в этом навыке.</li> </ul>"
     },
     {
       "id": "y2Lx6fkAp46dJH22",
