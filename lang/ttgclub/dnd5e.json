@@ -108,6 +108,55 @@
 				}
 			}
 		},
+		"SAVE": {
+			"Title": {
+				"one": "Спасбросок",
+				"other": "Спасброски"
+			},
+			"FIELDS": {
+				"damage": {
+					"label": "Урон",
+					"onSave": {
+						"label": "Урон при успехе",
+						"hint": "Урон, получаемый при успешном спасброске",
+						"Full": "Полный урон",
+						"Half": "Половина урона",
+						"None": "Нет урона"
+					},
+					"parts": {
+						"label": "Части урона",
+						"hint": "Индивидуальные части урона, составляющие бросок."
+					}
+				},
+				"effects": {
+					"onSave": {
+						"label": "Всегда применять",
+						"hint": "Этот эффект будет всегда применён, даже если цель успешно пройдёт спасбросок."
+					}
+				},
+				"save": {
+					"label": "Подробности спасброска",
+					"ability": {
+						"label": "Характеристики спасброска",
+						"hint": "Характеристики, используемые при прохождении спасброска."
+					},
+					"dc": {
+						"label": "Сложность",
+						"calculation": {
+							"label": "Расчёт СЛ",
+							"hint": "Метод или характеристика, используемая для расчёта сложности."
+						},
+						"formula": {
+							"label": "Формула СЛ",
+							"hint": "Формула или неизменное значение для СЛ. спасброска"
+						},
+						"CustomFormula": "Своя формула",
+						"DefaultFormula": "8 + @mod + @prof"
+					}
+				}
+			},
+			"OnSave": "При успешном спасброске"
+		},
 		"AbbreviationCR": "ПО",
 		"AbbreviationLR": "ПО",
 		"AbilityCon": "Телосложение",
@@ -239,6 +288,148 @@
 		},
 		"ClassSaves": "Спасброски",
 		"ComponentMaterial": "Материальный",
+		"CONSUMPTION": {
+			"FIELDS": {
+				"consumption": {
+					"label": "Расход",
+					"scaling": {
+						"abbr": "Эскалация",
+						"label": "Эскалация расхода",
+						"allowed": {
+							"label": "Разрешить эскалацию",
+							"hint": "Может ли функция не на заклинании быть активирована на высоких ячейках?"
+						},
+						"max": {
+							"label": "Макс. эскалация",
+							"hint": "Максимальное число уровней эскалации для этого предмета, включая начальный уровень."
+						}
+					},
+					"spellSlot": {
+						"label": "Расходование ячейки",
+						"hint": "Должна ли функция расходовать ячейку этого заклинания?"
+					},
+					"targets": {
+						"label": "Цели расхода",
+						"hint": "Цели расхода при активации функции.",
+						"FIELDS": {
+							"type": {
+								"label": "Тип расхода",
+								"hint": "Тип расхода цели."
+							},
+							"target": {
+								"label": "Цель расхода",
+								"hint": "Определённая цель для расхода."
+							},
+							"value": {
+								"label": "Число расхода",
+								"hint": "Введите отрицательное значение, для восстановления вместо расходования."
+							},
+							"scaling": {
+								"label": "Эскалация расхода",
+								"mode": {
+									"label": "Режим эскалации",
+									"hint": "Как будет эскалироваться расход."
+								},
+								"formula": {
+									"label": "Формула эскалации",
+									"hint": "Особая эскалация расхода за уровень."
+								}
+							}
+						}
+					}
+				}
+			},
+			"Action": {
+				"ConsumeResource": "Расход ресурса",
+				"Create": "Создание цели расхода",
+				"Delete": "Удаление цели расхода",
+				"RefundResource": "Возврат ресурса"
+			},
+			"Scaling": {
+				"Amount": "Число",
+				"Automatic": "Автоматически",
+				"None": "Без эскалации",
+				"SlotLevel": "Уровень ячейки"
+			},
+			"Target": {
+				"ThisItem": "Этот предмет"
+			},
+			"Type": {
+				"Action": {
+					"Prompt": "Израсходовать {type}?",
+					"PromptHint": "Израсходовано {cost} ({available} доступно)."
+				},
+				"ActivityUses": {
+					"Label": "Исп. функции",
+					"PromptDecrease": "Израсходовать использования функции?",
+					"PromptIncrease": "Восстановить использования функции?",
+					"PromptHintDecrease": "Потратить <strong>{cost}</strong> {use} у этой функции (доступно {available} {availableUse}).",
+					"PromptHintIncrease": "Восстановить <strong>{cost}</strong> {use} у этой функции.",
+					"Warning": "использований у функции {activity} на {item}"
+				},
+				"Attribute": {
+					"Label": "Параметр",
+					"PromptDecrease": "Израсходовать параметр?",
+					"PromptIncrease": "Восстановить параметр?",
+					"PromptHintDecrease": "Уменьшить <code>{attribute}</code> на <strong>{cost}</strong> (сейчас {current}).",
+					"PromptHintIncrease": "Увеличить <code>{attribute}</code> на <strong>{cost}</strong> (сейчас {current}).",
+					"Warning": "Значение {attribute}"
+				},
+				"HitDice": {
+					"Label": "Кость хитов",
+					"PromptDecrease": "Расход кости хитов?",
+					"PromptIncrease": "Восстановление кости хитов?",
+					"PromptHintDecrease": "Потратить <strong>{cost}</strong> {denomination} {die} (осталось {available}).",
+					"PromptHintIncrease": "Восстановить  <strong>{cost}</strong> {denomination} {die}.",
+					"Warning": "{denomination} КЗ"
+				},
+				"HitDie": {
+					"one": "кость хитов",
+					"other": "кости хитов"
+				},
+				"ItemUses": {
+					"Label": "Использования предмета",
+					"PromptDecrease": "Расход использования?",
+					"PromptIncrease": "Восстановление использования?",
+					"PromptHintDecrease": "Потратить <strong>{cost}</strong> {use} у {item} (доступно {available} {availableUse}).",
+					"PromptHintIncrease": "Восстановить <strong>{cost}</strong> {use} у {item}.",
+					"Warning": "использований у {name}"
+				},
+				"Material": {
+					"Label": "Реагент",
+					"PromptDecrease": "Расход реагента?",
+					"PromptIncrease": "Восстановление реагента?",
+					"PromptHintDecrease": "Убавить {item} на <strong>{cost}</strong> (осталось {quantity}).",
+					"PromptHintIncrease": "Прибавить {item} на <strong>{cost}</strong>.",
+					"Warning": "у {name}"
+				},
+				"SpellSlot": {
+					"one": "{level} ячейка",
+					"other": "{level} ячейки"
+				},
+				"SpellSlots": {
+					"Label": "Ячейки заклинаний",
+					"PromptDecrease": "Использовать ячейку?",
+					"PromptIncrease": "Восстановить ячейку?",
+					"PromptHintDecrease": "Потратить <strong>{cost}</strong> {slot} (осталось {available}).",
+					"PromptHintIncrease": "Восстановить <strong>{cost}</strong> {slot}.",
+					"Warning": "{level} ячеек"
+				},
+				"Use": {
+					"one": "использование",
+					"other": "использования"
+				}
+			},
+			"Warning": {
+				"MissingAttribute": "Параметр {attribute}, настроенный на расходование функцией {activity} на {item}, не может быть найден.",
+				"MissingHitDice": "У актёра нет класса с костью здоровья {denomination}.",
+				"MissingItem": "Предмет, настроенный на расходование функцией {activity} на {item}, не может быть найден.",
+				"MissingSpellSlot": "Нет доступных ячеек {level} уровня.",
+				"None": "Нет доступных {type} для расходования. Требуется {cost}.",
+				"NotEnough": "Нет доступных {type} для расходования. Требуется {cost}, но доступно только {available}.",
+				"WillDestroy": "Это израсходует последнее использование и {item} будет уничтожен."
+			}
+		},
 		"ComponentMaterialAbbr": "М",
 		"ComponentSomatic": "Соматический",
 		"ComponentSomaticAbbr": "С",
@@ -249,6 +440,8 @@
 		"ConDeafened": "Оглохший",
 		"ConDiseased": "Больной",
 		"ConExhaustion": "Истощённый",
+		"ExhaustionLevel": "{n}-я степень истощения",
+		"ConPoisoned": "Отравленный",
 		"ConFrightened": "Испуганный",
 		"ConGrappled": "Схваченный",
 		"ConImm": "Иммунитет к состоянию",
@@ -369,6 +562,50 @@
 		"LegResMax": "Максимум легендарных сопротивлений",
 		"LegResRemaining": "Остаток легендарных сопротивлений",
 		"LevelScaling": "Повышение уровня",
+		"REST": {
+			"Configuration": "Настройка отдыха",
+			"HitDice": {
+				"AutoSpend": {
+					"Hint": "Автоматически использовать кости хитов, пока хиты не будут полностью восстановлены.",
+					"Label": "Автоматически использовать костих хитов"
+				},
+				"None": "Во время отдыха закончились кости хитов.",
+				"Select": "Выберите кость хитов"
+			},
+			"Label": "Отдых",
+			"Long": {
+				"Abbreviation": "ПО",
+				"Hint": {
+					"Group": "В конце продолжительного отдыха участники группы восстанавливают хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+					"GroupLegacy": "В конце продолжительного отдыха участники группы восстанавливают все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+					"Normal": "В конце продолжительного отдыха вы восстанавливаете хиты, а также кости хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний.",
+					"NormalLegacy": "В конце продолжительного отдыха вы восстанавливаете все хиты, а также половину от максимума костей хитов, ресурсы класса, предметы с ежедневными зарядами и ячейки заклинаний."
+				},
+				"Label": "Продолжительный отдых",
+				"LabelShort": "Продолжительный",
+				"Recovery": "Восстанавливается при продолжительным отдыхе",
+				"Result": {
+					"Full": "{name} завершает продолжительный отдых и восстанавливает {health} и {dice}.",
+					"HitDice": "{name} завершает продолжительный отдых и восстанавливает {dice}.",
+					"HitPoints": "{name} завершает продолжительный отдых и восстанавливает {health}.",
+					"Short": "{name} завершает продолжительный отдых."
+				}
+			},
+			"Short": {
+				"Abbreviation": "КО",
+				"Hint": {
+					"Group": "При коротком отдыхе участники группы могут использовать кости хитов и восстановить заряды предметов.",
+					"Normal": "При коротком отдыхе вы можете использовать кости хитов и восстановить заряды предметов."
+				},
+				"Label": "Короткий отдых",
+				"LabelShort": "Короткий",
+				"Recovery": "Восстанавливается при коротком отдыхе",
+				"Result": {
+					"Full": "{name} завершает короткий отдых, используя {dice} и восстанавливая {health}.",
+					"Short": "{name} завершает короткий отдых."
+				}
+			}
+		},
 		"Long": "Продолжительный",
 		"LongRest": "Продолжительный отдых",
 		"LongRestEpic": "Продолжительный отдых (1 час)",
@@ -538,6 +775,38 @@
 				"WeightlessContents": "Содержимое без веса"
 			}
 		}
+	},
+	"EDITOR.DND5E.Inline": {
+		"SaveLong": "Спасбросок {save}"
+	},
+	"EFFECT.DND5E": {
+		"StatusBleeding": "Кровотечение",
+		"StatusBloodied": "Окровавленный",
+		"StatusBurning": "Горение",
+		"StatusBurrowing": "Копание",
+		"StatusConcentrating": "Концентрация",
+		"StatusCursed": "Проклятие",
+		"StatusDead": "Смерть",
+		"StatusDehydration": "Жажда",
+		"StatusDodging": "Уклонение",
+		"StatusEncumbered": "Нагруженность",
+		"StatusEthereal": "Эфемерность",
+		"StatusExceedingCarryingCapacity": "Превышение максимальной грузоподъёмности",
+		"StatusFalling": "Падение",
+		"StatusFlying": "Полёт",
+		"StatusHeavilyEncumbered": "Крайняя нагруженность",
+		"StatusHiding": "Скрытность",
+		"StatusHovering": "Парение",
+		"StatusMalnutrition": "Голод",
+		"StatusMarked": "Метка",
+		"StatusSilenced": "Немота",
+		"StatusSleeping": "Сон",
+		"StatusStable": "Стабильность",
+		"StatusSuffocation": "Удушение",
+		"StatusSurprised": "Застигнут врасплох",
+		"StatusThreeQuartersCover": "Укрытие на три четверти",
+		"StatusTotalCover": "Укрытие полностью",
+		"StatusTransformed": "Превращение"	
 	},
 	"ITEM": {
 		"TypeFeat": "Черта",
