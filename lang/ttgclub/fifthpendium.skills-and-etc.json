@@ -434,7 +434,7 @@
     {
       "id": "82TQvy8dwP3SsD8s",
       "name": "Уроки первородных [Lessons of the First One]",
-      "description": "<p><em><strong>Требование:</strong> уровень колдуна 2+</em></p><p>Вам открылось знание, полученное от древней сущности Мультивселенной, позволяющее вам получить одну @UUID[Compendium.fifthpendium.phb.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj.JournalEntryPage.OBzSvPA3XfN21NDY]{черту происхождения.}</p><p><strong>Многократное применение.</strong> Вы можете выбрать это воззвание более 1 раза. Каждый раз выбирайте другую черту происхождения.</p>"
+      "description": "<p><em><strong>Требование:</strong> уровень колдуна 2+</em></p> <p>Вам открылось знание, полученное от древней сущности Мультивселенной, позволяющее вам получить одну @UUID[Compendium.fifthpendium.phb.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{черту происхождения.}</p> <p><strong>Многократное применение.</strong> Вы можете выбрать это воззвание более 1 раза. Каждый раз выбирайте другую черту происхождения.</p>"
     },
     {
       "id": "83cXyseSkrwc2Hez",
@@ -2624,7 +2624,7 @@
     {
       "id": "lRrQPTbXGi2CdKZr",
       "name": "Эксперт в навыке [Skill Expert]",
-      "description": "<p><em style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track)\"><strong>Требование:</strong> Уровень 4 или выше</em></p><p>Вы получаете следующие преимущества:</p><ul><li><em><strong>Увеличение характеристик.</strong></em> Увеличьте показатель одной вашей характеристики по выбору на 1, максимум до 20.</li><li><em><strong>Владение навыком.</strong></em> Вы получаете владение одним навыком на ваш выбор.</li><li><em><strong>&amp;Компетентность.</strong></em> Выберите один навык, которым вы владеете, но не имеете в нем компетентности. Вы получаете &Reference[expertise]{компентентность} в этом навыке.</li></ul>"
+      "description": "<p><em style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track)\"><strong>Требование:</strong> Уровень 4 или выше</em></p><p>Вы получаете следующие преимущества:</p><ul><li><em><strong>Увеличение характеристик.</strong></em> Увеличьте показатель одной вашей характеристики по выбору на 1, максимум до 20.</li><li><em><strong>Владение навыком.</strong></em> Вы получаете владение одним навыком на ваш выбор.</li><li><em><strong>Компетентность.</strong></em> Выберите один навык, которым вы владеете, но не имеете в нем компетентности. Вы получаете &Reference[expertise]{компентентность} в этом навыке.</li></ul>"
     },
     {
       "id": "lX8BRUNBJByg4YvB",
