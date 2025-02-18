@@ -508,7 +508,6 @@
 		"FlagsInitiativeAdvHint": "Проверки инициативы получают преимущество.",
 		"FlagsInstructions": "Настройте способности и свойства, которые влияют на персонажа.",
 		"FlagsJOATHint": "Половина бонуса мастерства в навыках у которых у вас нет владения.",
-		"FlagsObservantHint": "+5 к пассивной Внимательности и Расследованию.",
 		"FlagsPowerfulBuild": "Мощное телосложение",
 		"FlagsReliableTalent": "Надёжный талант",
 		"FlagsRemarkableAthleteHint": "Половина бонуса мастерства в проверках физических характеристик и инициативы.",
@@ -537,6 +536,22 @@
 		"HitPointsMin": "Минимальные хиты",
 		"HitPointsOverride": "Перезапись максимальных хитов",
 		"HitPointsTemp": "Временные хиты",
+		"DND5E.ExperiencePoints": {
+			"Abbreviation": "Опыт",
+			"Boons": {
+				"one": "{number} дар",
+				"other": "{number} дара"
+			},
+			"Current": "Текущий опыт",
+			"Format": "{value} опыта",
+			"Label": "Опыт",
+			"Progress": "До следующего уровня",
+			"StatBlock": {
+				"Standard": "{value} опыта",
+				"Lair": "{value} или {lair} опыта в логове"
+			},
+			"Value": "Опыт"
+		},
 		"NPC": {
 			"Label": "Персонаж мастера",
 			"SECTIONS": {
@@ -556,21 +571,89 @@
 		"ItemFeatureType": "Тип способности",
 		"ItemRarityVeryRare": "очень редкий",
 		"ItemToolProficiency": "Владение инструментами",
-		"LanguagesAarakocra": "Ааракокр",
-		"LanguagesAbyssal": "Язык бездны",
-		"LanguagesAquan": "Акван",
-		"LanguagesCommon": "Общий",
-		"LanguagesDeepSpeech": "Глубинная речь",
-		"LanguagesDwarvish": "Дварфский",
-		"LanguagesGiant": "Великаний",
-		"LanguagesGnoll": "Гноллий",
-		"LanguagesGnomish": "Гномий",
-		"LanguagesInfernal": "Инфернальный",
-		"LanguagesPrimordial": "Первичный",
-		"LegRes": "Легендарное сопротивление",
-		"LegResMax": "Максимум легендарных сопротивлений",
-		"LegResRemaining": "Остаток легендарных сопротивлений",
-		"LevelScaling": "Повышение уровня",
+		"Language": {
+			"Language": {
+				"Aarakocra": "Ааракокр",
+				"Abyssal": "Язык бездны",
+				"Aquan": "Акван",
+				"Auran": "Ауран",
+				"Celestial": "Небесный",
+				"Common": "Всеобщий",
+				"CommonSign": "Язык жестов",
+				"DeepSpeech": "Глубинная речь",
+				"Draconic": "Драконий",
+				"Druidic": "Друидический",
+				"Dwarvish": "Дварфский",
+				"Elvish": "Эльфийский",
+				"Giant": "Великаний",
+				"Gith": "Гитский",
+				"Gnoll": "Гноллий",
+				"Gnomish": "Гномий",
+				"Goblin": "Гоблинский",
+				"Halfling": "Полуросличий",
+				"Ignan": "Игнан",
+				"Infernal": "Инфернальный",
+				"Orc": "Орочий",
+				"Primordial": "Первичный",
+				"Sylvan": "Сильван",
+				"Terran": "Терран",
+				"ThievesCant": "Воровской жаргон",
+				"Undercommon": "Подземный"
+			}
+		},
+		"LegendaryResistance": {
+			"Action": {
+				"Resist": "Легендарное сопротивление"
+			},
+			"Label": "Легендарное сопротивление",
+			"Max": "Максимум легендарных сопротивлений",
+			"Ordinal": {
+				"one": "{n}-я Легендарное сопротивление",
+				"two": "{n}-я Легендарное сопротивление",
+				"few": "{n}-я Легендарное сопротивление",
+				"other": "{n}-я Легендарное сопротивление"
+			},
+			"Remaining": "Остаток легендарных сопротивлений",
+			"Resisted": "Использовано легендарное сопротивление"
+		},
+		"DND5E.Habitat": {
+			"Categories": {
+				"Any": "Любая",
+				"Arctic": "Приполярье",
+				"Coastal": "Побережье",
+				"Desert": "Пустыня",
+				"Forest": "Лес",
+				"Grassland": "Степь",
+				"Hill": "Холм",
+				"Mountain": "Гора",
+				"Planar": "План бытия",
+				"Swamp": "Болото",
+				"Underdark": "Подземье",
+				"Underwater": "Подводные глубины",
+				"Urban": "Город"
+			},
+			"Configuration": {
+				"Custom": "Особая",
+				"Label": "Среда обитания",
+				"Legend": "Категория",
+				"Subtype": "Подтип {type}",
+				"Title": "Настройка среды обитания"
+			},
+			"Subtype": "{type} ({subtype})"
+		},
+		"DND5E.CompendiumBrowser": {
+			"Filters": {
+				"Label": "Фильтр",
+				"HasDarkvision": "Есть тёмное зрение",
+				"HasSpellcasting": "Есть заклинания",
+				"SearchResults": "Результаты поисков"
+			},
+			"Tabs": {
+				"Feat.other": "Черты",
+				"Item.other": "Предметы",
+				"Monster.other": "Монстры"
+			}
+		},
 		"REST": {
 			"Configuration": "Настройка отдыха",
 			"HitDice": {
@@ -615,6 +698,47 @@
 				}
 			}
 		},
+
+		"DND5E.WEAPON": {
+			"FIELDS": {
+				"ammunition": {
+					"type": {
+						"label": "Тип боеприпасов"
+					}
+				},
+				"armor": {
+					"value": {
+						"label": "Класс доспех"
+					}
+				},
+				"damage": {
+					"hint": "Кости урона оружия. Модификатор характеристики и дополнительный урон будут автоматически добавлены при атаке."
+				},
+				"mastery": {
+					"label": "Оружейные приёмы",
+					"hint": "Особая способность оружия, быть использована только персонажем, обладающим умением, которое разблокирует этот приём для персонажа."
+				}
+			},
+			"Mastery": {
+				"Label": "Оружейные приёмы",
+				"Flavor": "Приём",
+				"Cleave": "Прорубание",
+				"Graze": "Задевание",
+				"Nick": "Выпад",
+				"Push": "Толкание",
+				"Sap": "Изнурение",
+				"Slow": "Замедление",
+				"Topple": "Опрокидывание",
+				"Vex": "Подавление"
+			}
+		},
+
+		"DND5E.FLAGS": {
+			"EnhancedDualWielding": {
+				"Name": "Использование двух оружий",
+				"Hint": "Разрешить дополнительные атаки бонусным действием, используя любое оружие ближнего боя без свойства 'Двуручное'."
+			}
+		},
 		"Long": "Продолжительный",
 		"LongRest": "Продолжительный отдых",
 		"LongRestEpic": "Продолжительный отдых (1 час)",
@@ -623,9 +747,9 @@
 		"LongRestNormal": "Продолжительный отдых (8 часов)",
 		"LongRestOvernight": "Продолжительный отдых (новый день)",
 		"LongRestRecovery": "Восстанавливается после продолжительного отдыха",
-		"LongRestResult": "{name} совершает продолжительный отдых, восстанавливая {health} Хитов и {dice} Костей Хитов.",
-		"LongRestResultHitDice": "{name} совершает продолжительный отдых и восстанавливает {dice} Костей Хитов.",
-		"LongRestResultHitPoints": "{name} совершает продолжительный отдых и восстанавливает {health} Хитов.",
+		"LongRestResult": "{name} совершает продолжительный отдых, восстанавливая {health} хитов и {dice} костей хитов.",
+		"LongRestResultHitDice": "{name} совершает продолжительный отдых и восстанавливает {dice} костей хитов.",
+		"LongRestResultHitPoints": "{name} совершает продолжительный отдых и восстанавливает {health} хитов.",
 		"LongRestResultShort": "{name} совершает продолжительный отдых.",
 		"NotProficient": "Без владения",
 		"PersonalityTraits": "Черты характера",
@@ -691,7 +815,6 @@
 		"SizeTiny": "Крошечный",
 		"SkillAni": "Уход за животными",
 		"SkillConfigurationHint": "Настройка бонуса и владение навыком.",
-		"SkillInv": "Расследование",
 		"SkillPrc": "Внимательность",
 		"SkillPrf": "Выступление",
 		"SpellCantrip": "Заговор",
