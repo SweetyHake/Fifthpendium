@@ -467,7 +467,7 @@
 		"CreatureSwarm": "Рой/Стая",
 		"CreatureSwarmPhrase": "Рой/Стая из {size} {type}",
 		"CreatureSwarmSize": "Размер роя/стаи",
-		"CreatureType": "Вид существа",
+		"CreatureType": "Тип существа",
 		"CreatureTypeConfig": "Настройка вида существа",
 		"CreatureTypeSelectorCustom": "Особый вид",
 		"CreatureTypeSelectorSubtype": "Подвид",
@@ -536,7 +536,7 @@
 		"HitPointsMin": "Минимальные хиты",
 		"HitPointsOverride": "Перезапись максимальных хитов",
 		"HitPointsTemp": "Временные хиты",
-		"DND5E.ExperiencePoints": {
+		"ExperiencePoints": {
 			"Abbreviation": "Опыт",
 			"Boons": {
 				"one": "{number} дар",
@@ -616,7 +616,7 @@
 			"Remaining": "Остаток легендарных сопротивлений",
 			"Resisted": "Использовано легендарное сопротивление"
 		},
-		"DND5E.Habitat": {
+		"Habitat": {
 			"Categories": {
 				"Any": "Любая",
 				"Arctic": "Приполярье",
@@ -641,7 +641,7 @@
 			},
 			"Subtype": "{type} ({subtype})"
 		},
-		"DND5E.CompendiumBrowser": {
+		"CompendiumBrowser": {
 			"Filters": {
 				"Label": "Фильтр",
 				"HasDarkvision": "Есть тёмное зрение",
@@ -699,7 +699,7 @@
 			}
 		},
 
-		"DND5E.WEAPON": {
+		"WEAPON": {
 			"FIELDS": {
 				"ammunition": {
 					"type": {
@@ -733,7 +733,7 @@
 			}
 		},
 
-		"DND5E.FLAGS": {
+		"FLAGS": {
 			"EnhancedDualWielding": {
 				"Name": "Использование двух оружий",
 				"Hint": "Разрешить дополнительные атаки бонусным действием, используя любое оружие ближнего боя без свойства 'Двуручное'."
@@ -839,6 +839,7 @@
 		"SpellMaterialsDescription": "Описание материального компонента",
 		"SpellMaterialsSupply": "Доступность материального компонента",
 		"ToolArtisans": "Ремесленные инструменты",
+		"Resistances": "Сопротивления",
 		"TraitArmorPlural": {
 			"one": "Владение доспехами",
 			"other": "Владения доспехами"
