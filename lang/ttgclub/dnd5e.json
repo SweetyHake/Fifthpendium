@@ -623,6 +623,11 @@
 		"HitPointsMin": "Минимальные хиты",
 		"HitPointsOverride": "Перезапись максимальных хитов",
 		"HitPointsTemp": "Временные хиты",
+		"HitPointsTempShort": "Временные хиты",
+		"HitPointsTempMax": "Временный максимум хитов",
+		"HitPointsTempMaxHint": "Временно изменяет максимум хитов.",
+		"HitPointsTempMaxShort": "Врем. макс. хитов",
+		"HealingTemp": "Временные хиты",
 		"ExperiencePoints": {
 			"Abbreviation": "Опыт",
 			"Boons": {
@@ -653,7 +658,6 @@
 				"Label": "Важный ПМ"
 			}
 		},
-		"HitPointsTempMax": "Временный максимум хитов",
 		"ItemFeatureDetails": "Подробности способности",
 		"ItemFeatureType": "Тип способности",
 		"ItemRarityVeryRare": "очень редкий",
