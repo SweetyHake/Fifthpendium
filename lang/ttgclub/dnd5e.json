@@ -652,6 +652,24 @@
 		"HalfProficient": "Владеет наполовину",
 		"HitDice": "Кость хитов",
 		"HitDiceConfig": "Настройка кости хитов",
+		"HITDICE": {
+			"Action": {
+				"Decrease": "Понижение",
+				"Increase": "Повышение"
+			},
+			"Available": "{number} доступно",
+			"Config": "Настройка костей хитов",
+			"Counted": {
+				"one": "{number} кость хитов",
+				"other": "{number} костей хитов"
+			}
+		},
+		"HITPOINTS": {
+			"Counted": {
+				"one": "{number} хит",
+				"other": "{number} хитов"
+			}
+		},
 		"HitDiceConfigHint": "Настройте оставшиеся кости хитов для каждого класса",
 		"HitDiceMax": "Максимальная кость хитов",
 		"HitDiceRemaining": "Оставшиеся кости хитов",
