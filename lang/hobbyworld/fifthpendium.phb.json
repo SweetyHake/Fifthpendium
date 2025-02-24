@@ -1,6 +1,11 @@
 {
   "label": "Книга игрока",
-  "mapping": {},
+	"mapping": {
+		"pages": {
+			"path": "pages",
+			"converter": "dndpages"
+		}
+	},
   "folders": {
     "Глава 1": "Глава 1",
     "Глава 2": "Глава 2",
