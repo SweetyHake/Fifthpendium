@@ -1,5 +1,17 @@
 {
   "label": "Заклинания",
+  "folders": {
+    "0 Уровень | Заговоры [Cantrips]": "0 Уровень | Фокусы [Cantrips]",
+    "1 уровень [1st Level]": "1 круг [1st Level]",
+    "2 уровень [2nd Level]": "2 круг [2nd Level]",
+    "3 уровень [3rd Level]": "3 круг [3rd Level]",
+    "4 уровень [4th Level]": "4 круг [4th Level]",
+    "5 уровень [5th Level]": "5 круг [5th Level]",
+    "6 уровень [6th Level]": "6 круг [6th Level]",
+    "7 уровень [7th Level]": "7 круг [7th Level]",
+    "8 уровень [8th Level]": "8 круг [8th Level]",
+    "9 уровень [9th Level]": "9 круг [9th Level]"
+  },
   "entries": [
       {
           "id": "0j5DCe7yvsKidtw5",
