@@ -16,6 +16,10 @@
       "activities": {
         "path": "system.activities",
         "converter": "activities"
+      },
+      "effects": {
+        "path": "data.effects",
+        "converter": "effects"
       }
     },
     "folders": {
