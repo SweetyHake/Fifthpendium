@@ -684,7 +684,7 @@
 					}
 				}
 		},
-		"DND5E.HEAL": {
+		"HEAL": {
 			"Title": "Исцеление",
 			"FIELDS": {
 				"healing": {
