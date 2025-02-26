@@ -923,6 +923,18 @@
 				"Monster.other": "Монстры"
 			}
 		},
+
+		"ACTIVATION": {
+			"Category": {
+				"Monster": "Чудовище"
+			},
+			"Type": {
+				"LongRest": {
+					"Label": "В конце продолжительного отдыха"
+				}
+			}
+		},
+
 		"REST": {
 			"Configuration": "Настройка отдыха",
 			"HitDice": {
@@ -1187,6 +1199,7 @@
 	"EDITOR.DND5E.Inline": {
 		"SaveLong": "Спасбросок {save}"
 	},
+
 	"EFFECT.DND5E": {
 		"StatusBleeding": "Кровотечение",
 		"StatusBloodied": "Окровавленный",
