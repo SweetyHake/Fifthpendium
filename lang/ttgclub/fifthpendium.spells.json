@@ -16,10 +16,6 @@
     "activities": {
       "path": "system.activities",
       "converter": "activities"
-    },
-    "effects": {
-      "path": "effects",
-      "converter": "effects"
     }
   },
   "folders": {
