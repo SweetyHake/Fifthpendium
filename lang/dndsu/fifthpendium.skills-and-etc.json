@@ -924,7 +924,7 @@
     {
       "id": "FeXRfE6VgkEIJ4jY",
       "name": "Атлет [Athlete]",
-      "description": "<p><em><strong>Требование:</strong> Уровень 4 или выше; Сила или Ловкость 13 или выше</em></p><p>Вы получаете следующие преимущества:</p><ul><li><p><strong>Увеличение характеристик.</strong> Увеличьте свой показатель Силы или Ловкости на 1, максимум до 20.</p></li><li><p><strong>Подскок.</strong> Когда вы имеете состояние &Reference[prone], вы можете встать, потратив только 5 футов перемещения</p></li><li><p><strong>Скорость лазания.</strong> Вы получаете скорость лазания, равную вашей скорости.</p></li><li><p><strong>Прыжки.</strong>Вы можете выполнить прыжок в длину или в высоту с разбега, переместившись перед этим только на 5 футов.</p></li></ul>"
+      "description": "<p><em><strong>Требование:</strong> Уровень 4 или выше; Сила или Ловкость 13 или выше</em></p><p>Вы получаете следующие преимущества:</p><ul><li><p><strong>Увеличение характеристик.</strong> Увеличьте свой показатель Силы или Ловкости на 1, максимум до 20.</p></li><li><p><strong>Подскок.</strong> Когда вы имеете состояние &Reference[prone], вы можете встать, потратив только 5 футов перемещения</p></li><li><p><strong>Скорость лазания.</strong> Вы получаете скорость лазания, равную вашей скорости.</p></li><li><p><strong>Прыжки.</strong> Вы можете выполнить прыжок в длину или в высоту с разбега, переместившись перед этим только на 5 футов.</p></li></ul>"
     },
     {
       "id": "FktKlgkmSdONbvhF",
@@ -1439,7 +1439,7 @@
     {
       "id": "OxmGBMlnkmbP594P",
       "name": "Кости превосходства",
-      "description": "<p style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track);margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Roboto, Arial, sans-serif;font-size:13.6px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\">У вас есть четыре кости превосходства. Это кости [[@scale.battle-master.superiority-dice]]. Кости превосходства тратятся при использовании. Вы восполняете все потраченные кости в конце короткого или долгого отдыха.</p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track);margin:0.5em 0px;color:rgb(25, 24, 19);font-family:Roboto, Arial, sans-serif;font-size:13.6px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\">Вы получаете ещё по две кости превосходства на 7-м (всего пять костей) и 15-м уровнях (всего шесть костей).</p>"
+      "description": "<p>У вас есть четыре кости превосходства. Это кости [[@scale.battle-master.superiority-dice]]. Кости превосходства тратятся при использовании. Вы восполняете все потраченные кости в конце короткого или долгого отдыха.</p> <p>Вы получаете ещё по две кости превосходства на 7-м (всего пять костей) и 15-м уровнях (всего шесть костей).</p>"
     },
     {
       "id": "P5odjCRC69P8keBT",
@@ -3394,7 +3394,6 @@
     {
       "id": "zrWAH61Ko64I4hNK",
       "name": "Магическая засада",
-      "description": "<p>Если вы накладываете заклинание на существо, имея при этом состояние &Reference[invisible apply=false], то это существо совершает с помехой спасброски от этого заклинания в текущий ход.</p>"
     },
     {
       "id": "zuCyEIOMgMuj8EOj",
