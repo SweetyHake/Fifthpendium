@@ -1,0 +1,719 @@
+{
+  "label": "CPR Заклинания",
+  "mapping": {
+    "activities": {
+      "path": "system.activities",
+      "converter": "activities"
+    }
+  },
+  "folders": {},
+  "entries": {
+    "0c3ludPAeYqlacA7": {
+      "name": "Магическое здоровье [Arcane Vigor]"
+    },
+    "295oEbbUEP9CGfGm": {
+      "name": "Дезинтеграция [Disintegrate]"
+    },
+    "3gaZzwNC57xmEO6K": {
+      "name": "Жгучая кара [Searing Smite]"
+    },
+    "3hY9m43Q8V5Zq1ci": {
+      "name": "Помощь [Aid]"
+    },
+    "3jCuuiMvtGrzmMYz": {
+      "name": "Корона безумия [Crown of Madness]",
+      "effects": {
+        "9a1bnj7cx2dss3sv": {
+          "name": "Crown of Madness"
+        }
+      }
+    },
+    "3t8dxFste4EUphnI": {
+      "name": "Фейское сияние [Faerie fire]"
+    },
+    "4N3giP0alIZDP5U7": {
+      "name": "Сияющая кара [Shining Smite]"
+    },
+    "5OjqPevPkxM3caRe": {
+      "name": "Увеличение/уменьшение [Enlarge/reduce]"
+    },
+    "5SA4FqtDhuSfyhgA": {
+      "name": "Барьер для жизни [Antilife Shell]"
+    },
+    "6CSEfZqZzUdUG88Q": {
+      "name": "Метка охотника [Hunter's Mark]",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Метка охотника"
+        },
+        "CtwTg5RbWUSlWeM2": {
+          "name": "Метка охотника: Переместить",
+          "chatFlavor": "Метка охотника: Переместить"
+        }
+      }
+    },
+    "6WhWgBSO5NxxJaJB": {
+      "name": "Fog Cloud"
+    },
+    "6ZnoNAyw39RH0w9K": {
+      "name": "Vampiric Touch",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Vampiric Touch"
+        },
+        "dVDb1NqKUitfS4oK": {
+          "name": "Vampiric Touch: Attack"
+        }
+      }
+    },
+    "6tJJpvWH56Hq45i9": {
+      "name": "Grease",
+      "activities": {
+        "cQBqdt9RLVannwfI": {
+          "name": "Grease: Fall"
+        }
+      }
+    },
+    "7ogMag9zkOqfjt2p": {
+      "name": "Magic Missile",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[1d4 + 1 - force] 3 Darts"
+        },
+        "zHpeqUnoKjOjo5aN": {
+          "name": "Magic Missile Bolt"
+        },
+        "VH7HwxXvnFU22CxV": {
+          "name": "Magic Missile Bolt: Flat"
+        }
+      }
+    },
+    "8LtjGzixLl1GvrEj": {
+      "name": "Shield",
+      "effects": {
+        "UCDrTaPPNUCpMNEr": {
+          "name": "Shield"
+        }
+      }
+    },
+    "A5q5m5KFFTD3OsPM": {
+      "name": "Увядание [Blight]"
+    },
+    "AqrisuprlAAiHdJW": {
+      "name": "Изгоняющая кара [Banishing Smite]",
+      "activities": {
+        "N4EumfAvDJdHqpNs": {
+          "name": "Banishment: Banish"
+        }
+      },
+      "effects": {
+        "UoD6VPnqomTghzQn": {
+          "name": "Banished"
+        }
+      }
+    },
+    "CmKRaOP0e1L1RPi8": {
+      "name": "Fire Storm",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[7d10 - fire] Can choose to not affect plants in the area"
+        }
+      }
+    },
+    "DVJF4dPyVRt4X9qt": {
+      "name": "Zone of Truth",
+      "activities": {
+        "sM0DggbRHvCyeZG8": {
+          "name": "Zone of Truth: Save"
+        }
+      }
+    },
+    "Dy9Ye5uVIIDVZfC7": {
+      "name": "Vitriolic Sphere",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[5d4 - acid] At the end of target's next turn"
+        }
+      },
+      "effects": {
+        "JyVcH2Ldy51le3ZY": {
+          "name": "Vitriolic Sphere"
+        }
+      }
+    },
+    "E3iKd6QczqJIRwJg": {
+      "name": "Проклятие [Bestow Curse]",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Bestow Curse: Disadvantage on Ability Checks & Saves"
+        },
+        "uZc2L3BrbHNUPrp3": {
+          "name": "Bestow Curse: Extra Damage"
+        },
+        "KyUPkDug19CbJOd2": {
+          "name": "Bestow Curse: Disadvantage on Attacks"
+        },
+        "sfVeItk4TaQKsCpo": {
+          "name": "Bestow Curse: Dodge on Turn"
+        },
+        "VyYgL3Xwp5oe1ylN": {
+          "name": "Bestow Curse: Other"
+        }
+      }
+    },
+    "ETr6cIyGNjqXDhC7": {
+      "name": "Аура жизни [Aura of Life]",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[healing] Each nonhostile creature in the aura (including you) when at 0 hit points"
+        }
+      }
+    },
+    "EkzkGFHAQL86Ec0M": {
+      "name": "Вызов на дуэль [Compelled Duel]"
+    },
+    "FRDM1w1P29eWChZl": {
+      "name": "Изгнание [Banishment]"
+    },
+    "GIWWhOqWKRVbotF0": {
+      "name": "Eldritch Blast",
+      "activities": {
+        "tkjHNE52HnpTEqnI": {
+          "name": "Eldritch Blast: Beam"
+        }
+      }
+    },
+    "GdV7YAgzesdeuxOY": {
+      "name": "Find Familiar",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Find Familiar"
+        },
+        "Aw56bbUPaozKIi2r": {
+          "name": "Find Familiar: Touch",
+          "chatFlavor": "Find Familiar: Touch"
+        },
+        "S5yJQt7Z9un20Drv": {
+          "name": "Find Familiar: Pocket Dimension",
+          "chatFlavor": "Find Familiar: Pocket Dimension"
+        }
+      }
+    },
+    "GxN22bmGnEDO6Rt9": {
+      "name": "Дыхание дракона [Dragon's Breath]",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "Choose one of Acid, Cold, Fire, Lightning, or Poison."
+        }
+      }
+    },
+    "HAUzYzrkcbifhM0P": {
+      "name": "Thorn Whip"
+    },
+    "HMD42mzSA7svwpw4": {
+      "name": "Защита от смерти [Death Ward]"
+    },
+    "HRdgTlmeuTclVROE": {
+      "name": "Божественная кара [Divine Smite]"
+    },
+    "LU6P6r1fW52d2B1i": {
+      "name": "Тьма [Darkness]"
+    },
+    "LVqLNYC2b1hX2hPJ": {
+      "name": "Благословение [Bless]",
+      "effects": {
+        "EPD3RAoj7cLUZyGR": {
+          "name": "Bless"
+        }
+      }
+    },
+    "OPXL5WsMjmqtr7wy": {
+      "name": "Порча [Bane]",
+      "effects": {
+        "ZJEp9zJLvNcbfwu6": {
+          "name": "Bane"
+        }
+      }
+    },
+    "PivGn3NQOAEkKOw8": {
+      "name": "Слепота/глухота [Blindness/Deafness]",
+      "activities": {
+        "saveBlindnessDea": {
+          "name": "Blind"
+        },
+        "Cc3fl3cCWDURAwuZ": {
+          "name": "Deafened"
+        }
+      }
+    },
+    "PjuAKxlpM4l9zrbi": {
+      "name": "Броня Агафиса [Armor of Agathys]",
+      "activities": {
+        "0HVqRCWANAOYpAts": {
+          "name": "Armor of Agathys: Reflect"
+        }
+      }
+    },
+    "QDB74gRSJw3eiAth": {
+      "name": "Ледяное прикосновение [Chill Touch]",
+      "effects": {
+        "NKp1kOBasrrPWtTu": {
+          "name": "Chill Touch"
+        }
+      }
+    },
+    "SKmdptVk68FhWjM3": {
+      "name": "Хроматический шар [Chromatic Orb]",
+      "activities": {
+        "FppS3cgYVXIYGTVf": {
+          "name": "Chromatic Orb: Bounce"
+        }
+      }
+    },
+    "TeMWcejb1ripRret": {
+      "name": "Mind Sliver",
+      "effects": {
+        "19euxgc9vmso0mdr": {
+          "name": "Mind Sliver"
+        }
+      }
+    },
+    "UVtWUtISe5p6TVZ9": {
+      "name": "Elemental Weapon"
+    },
+    "UtGhgP9KtmnVAj2W": {
+      "name": "Оживление мертвецов [Animate Dead]",
+      "activities": {
+        "DlB1ECR6gmIIgzDu": {
+          "name": "Animate Dead: Command",
+          "chatFlavor": "Animate Dead: Command"
+        },
+        "oNI74bBH5dh1mcnV": {
+          "name": "Animate Dead"
+        }
+      }
+    },
+    "V5QNqnbFOnETCn9I": {
+      "name": "Pass without Trace"
+    },
+    "V7uGCnR6qIVqA6JZ": {
+      "name": "Смертельное облако [Cloudkill]",
+      "activities": {
+        "Y45Its54JpIS6ylu": {
+          "name": "Cloudkill: Damage"
+        }
+      }
+    },
+    "VhWmo8YftyVrLPSo": {
+      "name": "Иной облик [Alter Self]",
+      "activities": {
+        "utilityAlterSelf": {
+          "name": "Aquatic Adaptation"
+        },
+        "addChangeAppear1": {
+          "name": "Change Appearance"
+        },
+        "c7SrQQK5SeXi9nA9": {
+          "name": "Natural Weapons"
+        },
+        "PbHfx1zcvRnhhPM0": {
+          "name": "Change Appearance Again",
+          "chatFlavor": "Change Appearance Again"
+        }
+      },
+      "effects": {
+        "r2nkQcLlBddzDEVv": {
+          "name": "Aquatic Adaptation - Aquatic Adaptation"
+        }
+      }
+    },
+    "WEr4WxCuiOKHX0oh": {
+      "name": "Вызов молний [Call Lightning]",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Call Lightning"
+        },
+        "zlDhux2rffASd60x": {
+          "name": "Storm Bolt",
+          "chatFlavor": "Storm Bolt"
+        }
+      }
+    },
+    "WiFTWBHC4xTzkJ2i": {
+      "name": "Fire Shield",
+      "activities": {
+        "dnd5eactivity000": {
+          "name": "Fire Shield: Warm Shield"
+        },
+        "n932FFjCdT3JE1yx": {
+          "name": "Fire Shield: Chill Shield"
+        },
+        "xGjTxRKg2ZbM6y29": {
+          "name": "Fire Shield: Dismiss",
+          "chatFlavor": "Fire Shield: Dismiss"
+        },
+        "tAjeZyBWfeVS9wtD": {
+          "name": "Fire Shield: Damage",
+          "chatFlavor": "Fire Shield: Damage"
+        }
+      }
+    },
+    "XA5iQjOCcNJ8REE7": {
+      "name": "Shield of Faith",
+      "effects": {
+        "ZMxPakKTD57nK9yJ": {
+          "name": "Shield of Faith"
+        }
+      }
+    },
+    "XoB7jhX26drrntBC": {
+      "name": "Круг смерти [Circle of Death]"
+    },
+    "YLdLnvBtK8ksdXgd": {
+      "name": "Protection from Evil and Good",
+      "effects": {
+        "nVLDeohDoSMoBP5v": {
+          "name": "Protection from Evil and Good"
+        }
+      }
+    },
+    "YYTDJVU8zexhvxMS": {
+      "name": "Melf's Acid Arrow",
+      "effects": {
+        "Rn227ZetXWnSMEQB": {
+          "name": "Melf's Acid Arrow"
+        }
+      }
+    },
+    "ZP4AYkp8jKluNXCZ": {
+      "name": "Toll the Dead"
+    },
+    "Zz7Xj9mjog401VND": {
+      "name": "Слепящая кара [Blinding Smite]"
+    },
+    "a8sTx0QQxlVohhuL": {
+      "name": "Желание [Wish]",
+      "activities": {
+        "9b8shbWOG9s8zBj0": {
+          "name": "Duplicate Spell"
+        },
+        "6x8gKXtNlZpSvpq3": {
+          "name": "Object Creation"
+        },
+        "Z9Pyhv23hfxVJzSl": {
+          "name": "Instant Health"
+        },
+        "undbvjnXx6HupatJ": {
+          "name": "Resistance"
+        },
+        "kDKH8A4BUa4cHXny": {
+          "name": "Spell Immunity"
+        },
+        "izgEL2oKNyS3ccXY": {
+          "name": "Sudden Learning"
+        },
+        "qLwvzWzCNxtmlOat": {
+          "name": "Roll Redo"
+        },
+        "N27NiehRB5Li1X14": {
+          "name": "Reshape Reality"
+        },
+        "u55A8T5aIYkCd1gl": {
+          "name": "Wish Stress",
+          "chatFlavor": "Wish Stress"
+        }
+      },
+      "effects": {
+        "X2ZBxNbcXlkVu866": {
+          "name": "Wish: Stress"
+        },
+        "XInfXKso0FRMJlYD": {
+          "name": "Wish: Resistance"
+        },
+        "9NArL1Q03OPDZCDo": {
+          "name": "Wish: Spell Immunity"
+        }
+      }
+    },
+    "aJtGlHwxODWlWGwI": {
+      "name": "Волна разрушения [Destructive Wave]"
+    },
+    "aqwASYbBOqJCioG8": {
+      "name": "Spike Growth",
+      "activities": {
+        "TqUZRrgRnDNmwqAZ": {
+          "name": "Spike Growth: Damage"
+        }
+      }
+    },
+    "b5QjV4tsv31a9vmL": {
+      "name": "Scorching Ray",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[2d6 - fire] 3 Rays"
+        },
+        "E0z74wwqfQBViTW4": {
+          "name": "Scorching Ray: Bolt"
+        }
+      }
+    },
+    "bJAJgXCpLhN3JFER": {
+      "name": "Thunderwave"
+    },
+    "beSW9YtSxSvmJkkI": {
+      "name": "Аура чистоты [Aura of Purity]"
+    },
+    "cAvhuDD120ifmdVs": {
+      "name": "Дубовая кожа [Barkskin]",
+      "effects": {
+        "vZs2z8P9aJWDsrvz": {
+          "name": "Barkskin"
+        }
+      }
+    },
+    "eb4Dv0U5D8FWf4WB": {
+      "name": "Дружба с животным [Animal Friendship]",
+      "effects": {
+        "yKnHas7sLimJm3UR": {
+          "name": "Animal Friendship"
+        }
+      }
+    },
+    "f5dneWsWWR6YfbCI": {
+      "name": "Спокойствие [Calm Emotions]",
+      "effects": {
+        "gkRnT26WoS3a7z2q": {
+          "name": "Calm Emotions: Condition Immunity"
+        },
+        "rhL9mcbMEPnBM0r7": {
+          "name": "Calm Emotions: Indifferent"
+        }
+      }
+    },
+    "hT6dOAd3hk0NPgiE": {
+      "name": "Wall of Fire",
+      "activities": {
+        "3q1oadEkwGxlMeHO": {
+          "name": "Wall of Fire: Damage"
+        }
+      }
+    },
+    "iJdwzVKzGMbOuXmD": {
+      "name": "Слово силы: излечение [Power Word Heal]"
+    },
+    "kABj3kEI5zeoBFZK": {
+      "name": "Всплеск кислоты [Acid Splash]"
+    },
+    "mKFv2wJLCSLzY2IG": {
+      "name": "Приказ [Command]",
+      "activities": {
+        "pd3grECrkVOivDuh": {
+          "name": "Approach",
+          "chatFlavor": "Command: Approach"
+        },
+        "qnK53bkjbuxbTAqi": {
+          "name": "Drop",
+          "chatFlavor": "Command: Drop"
+        },
+        "yYbbsuLD8FivztBy": {
+          "name": "Flee",
+          "chatFlavor": "Command: Flee"
+        },
+        "iYsD9kVdDvJM77VQ": {
+          "name": "Grovel",
+          "chatFlavor": "Command: Grovel"
+        },
+        "VnczBnc1P5ttfyp3": {
+          "name": "Halt",
+          "chatFlavor": "Command: Halt"
+        }
+      },
+      "effects": {
+        "SOTIXYPUzcm24eB1": {
+          "name": "Command: Approach"
+        },
+        "ut5o4sHbHGh5BHOf": {
+          "name": "Command: Drop"
+        },
+        "dgKDpkVZdETfhvBG": {
+          "name": "Command: Flee"
+        },
+        "4smn6quV2K7jJRkV": {
+          "name": "Command: Grovel"
+        },
+        "1ZpzHVhZAuJdU7ap": {
+          "name": "Command: Halt"
+        }
+      }
+    },
+    "nHYjBLU9wB2QGTBC": {
+      "name": "Светоч надежды [Beacon of Hope]"
+    },
+    "nuc4fPAw5sX2H8kr": {
+      "name": "Обнаружение магии [Detect Magic]"
+    },
+    "nzQAShj8ndmF2KI3": {
+      "name": "Цепь молний [Chain Lightning]",
+      "activities": {
+        "KkFRJcVOIhNDuWvP": {
+          "name": "Chain Lightning: Leap"
+        }
+      }
+    },
+    "pWhk7JxUZQJWJpkk": {
+      "name": "Ошеломляющая кара [Staggering Smite]",
+      "effects": {
+        "G7UhVsjX9WYhII6f": {
+          "name": "Staggering Smite"
+        }
+      }
+    },
+    "pr9OSdcpIfvViafp": {
+      "name": "Пылающие руки [Burning Hands]"
+    },
+    "q8m4PLylGaSWiGlX": {
+      "name": "Guiding Bolt",
+      "effects": {
+        "TOA1xaUiNvosLR2h": {
+          "name": "Guiding Bolt"
+        }
+      }
+    },
+    "qF1ZugZRSB3pK6Zv": {
+      "name": "Hold Person",
+      "effects": {
+        "bny732YnpMsuDytn": {
+          "name": "Hold Person"
+        }
+      }
+    },
+    "r1MLGWtfVPTVFBNt": {
+      "name": "Оберег от оружия [Blade Ward]",
+      "effects": {
+        "ynXhbNOfYRje4keY": {
+          "name": "Blade Ward"
+        }
+      }
+    },
+    "rTllkWMxnuGbfrLV": {
+      "name": "Плащ крестоносца [Crusader's Mantle]",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[1d4 - radiant] When each nonhostile creature within the aura hits with an attack"
+        }
+      }
+    },
+    "rg5xVNuJBms18YMz": {
+      "name": "Руки Хадара [Arms of Hadar]"
+    },
+    "s8AYToUXwpA1cnIz": {
+      "name": "Приворот чудовища [Charm Monster]",
+      "effects": {
+        "PI97wkEWv9amtbha": {
+          "name": "Charm Monster"
+        }
+      }
+    },
+    "ssPKgcMfmLz0JztX": {
+      "name": "Flaming Sphere",
+      "activities": {
+        "e1mCIrR78dOTWlMv": {
+          "name": "Flaming Sphere"
+        },
+        "nwAFaDn6e3VQsM6s": {
+          "name": "Flaming Sphere: Move",
+          "chatFlavor": "Flaming Sphere: Move"
+        }
+      }
+    },
+    "t1ET3JzcvHhLnHPU": {
+      "name": "Guardian of Faith",
+      "activities": {
+        "dnd5eactivity000": {
+          "chatFlavor": "[radiant] (20 of 60 total damage)"
+        }
+      }
+    },
+    "t3Kxi97FTeHZLa1I": {
+      "name": "Аура жизненной силы [Aura of Vitality]",
+      "activities": {
+        "AKDhT9uFmO6Zbwu2": {
+          "name": "Aura of Vitality: Heal"
+        }
+      }
+    },
+    "u6ZsBwBybLYGLc4Q": {
+      "name": "Heat Metal",
+      "activities": {
+        "WWhDaDkhdR3vrMCn": {
+          "name": "Heat Metal"
+        },
+        "RPeWu1C4fujXuBti": {
+          "name": "Heat Metal: Damage",
+          "chatFlavor": "Heat Metal: Damage"
+        },
+        "mnxVTmGwcqMENTcj": {
+          "name": "Heat Metal: Held",
+          "chatFlavor": "Heat Metal: Held"
+        },
+        "Uc52ckEpY9w8GddF": {
+          "name": "Heat Metal: Pulse",
+          "chatFlavor": "Heat Metal: Pulse"
+        }
+      }
+    },
+    "uk9mCwURvCX5zfQz": {
+      "name": "Мерцание [Blink]"
+    },
+    "vDNCVGOleRGyyeZG": {
+      "name": "Животное-посланник [Animal Messenger]"
+    },
+    "vpUJ0FpXiaJfKzX1": {
+      "name": "Громовая кара [Thunderous Smite]"
+    },
+    "wNW04yuVZ9Xagq5g": {
+      "name": "Расплывчатость [Blur]"
+    },
+    "wSqfN94GpKMI23FN": {
+      "name": "Misty Step"
+    },
+    "wY0DhFVenhHICB8F": {
+      "name": "Слово силы: смерть [Power Word Kill]"
+    },
+    "yGiPfUoUHZCpzfnZ": {
+      "name": "Hypnotic Pattern",
+      "effects": {
+        "TebHwvWJ1nmroHwK": {
+          "name": "Hypnotic Pattern"
+        }
+      }
+    },
+    "z92oDaB1tWGoASy3": {
+      "name": "Лунный свет [Moonbeam]",
+      "activities": {
+        "n8LHtbwz9XiYPlfA": {
+          "name": "Moonbeam: Move",
+          "chatFlavor": "Moonbeam: Move"
+        },
+        "ny8jAwG7myN6zsgs": {
+          "name": "Moonbeam: Damage",
+          "chatFlavor": "Moonbeam: Damage"
+        },
+        "TUR8EQbqALJeQGMV": {
+          "name": "Moonbeam"
+        }
+      }
+    },
+    "zHaAWVlE6hB7camF": {
+      "name": "Приворот гуманоида [Charm Person]",
+      "effects": {
+        "5iDlBsDMm8nzlD0x": {
+          "name": "Charm Person"
+        }
+      }
+    },
+    "zmvWN8MZr90BHHvd": {
+      "name": "Fly"
+    }
+  }
+}
