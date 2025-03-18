@@ -1,0 +1,291 @@
+{
+    "label": "CPR Spells",
+    "folders": {},
+    "entries": {
+        "kABj3kEI5zeoBFZK": {
+            "name": "Брызги кислоты [Acid Splash]"
+        },
+        "3hY9m43Q8V5Zq1ci": {
+            "name": "Подмога [Aid]"
+        },
+        "VhWmo8YftyVrLPSo": {
+            "name": "Смена обличья [Alter self]"
+        },
+        "eb4Dv0U5D8FWf4WB": {
+            "name": "Дружба с животными [Animal friendship]"
+        },
+        "vDNCVGOleRGyyeZG": {
+            "name": "Почтовое животное [Animal messenger]"
+        },
+        "UtGhgP9KtmnVAj2W": {
+            "name": "Оживление мертвецов [Animate Dead]"
+        },
+        "5SA4FqtDhuSfyhgA": {
+            "name": "Преграда жизни [Antilife shell]"
+        },
+        "0c3ludPAeYqlacA7": {
+            "name": "Магическое здоровье [Arcane Vigor]"
+        },
+        "PjuAKxlpM4l9zrbi": {
+            "name": "Доспех Агатиса [Armor of Agathys]"
+        },
+        "rg5xVNuJBms18YMz": {
+            "name": "Руки Хадара [Arms of Hadar]"
+        },
+        "ETr6cIyGNjqXDhC7": {
+            "name": "Аура жизни [Aura of life]"
+        },
+        "beSW9YtSxSvmJkkI": {
+            "name": "Аура очищения [Aura of purity]"
+        },
+        "t3Kxi97FTeHZLa1I": {
+            "name": "Аура живучести [Aura of vitality]"
+        },
+        "OPXL5WsMjmqtr7wy": {
+            "name": "Порча [Bane]"
+        },
+        "AqrisuprlAAiHdJW": {
+            "name": "Изгоняющая кара [Banishing Smite]"
+        },
+        "FRDM1w1P29eWChZl": {
+            "name": "Изгнание [Banishment]"
+        },
+        "cAvhuDD120ifmdVs": {
+            "name": "Дубовая кожа [Barkskin]"
+        },
+        "nHYjBLU9wB2QGTBC": {
+            "name": "Маяк надежды [Beacon of hope]"
+        },
+        "E3iKd6QczqJIRwJg": {
+            "name": "Проклятие [Bestow curse]"
+        },
+        "r1MLGWtfVPTVFBNt": {
+            "name": "Защита от оружия [Blade Ward]"
+        },
+        "LVqLNYC2b1hX2hPJ": {
+            "name": "Благословение [Bless]"
+        },
+        "A5q5m5KFFTD3OsPM": {
+            "name": "Усыхание [Blight]"
+        },
+        "Zz7Xj9mjog401VND": {
+            "name": "Ослепляющая кара [Blinding Smite]"
+        },
+        "PivGn3NQOAEkKOw8": {
+            "name": "Глухота/слепота [Blindness/deafness]"
+        },
+        "uk9mCwURvCX5zfQz": {
+            "name": "Мерцание [Blink]"
+        },
+        "wNW04yuVZ9Xagq5g": {
+            "name": "Размытый образ [Blur]"
+        },
+        "pr9OSdcpIfvViafp": {
+            "name": "Огненные ладони [Burning hands]"
+        },
+        "WEr4WxCuiOKHX0oh": {
+            "name": "Призыв молнии [Call lightning]"
+        },
+        "f5dneWsWWR6YfbCI": {
+            "name": "Умиротворение [Calm emotions]"
+        },
+        "nzQAShj8ndmF2KI3": {
+            "name": "Цепная молния [Chain Lightning]"
+        },
+        "s8AYToUXwpA1cnIz": {
+            "name": "Очарование монстра [Charm monster]"
+        },
+        "zHaAWVlE6hB7camF": {
+            "name": "Очарование личности [Charm Person]"
+        },
+        "QDB74gRSJw3eiAth": {
+            "name": "Леденящее прикосновение [Chill Touch]"
+        },
+        "SKmdptVk68FhWjM3": {
+            "name": "Цветной шарик [Chromatic orb]"
+        },
+        "XoB7jhX26drrntBC": {
+            "name": "Круг смерти [Circle of death]"
+        },
+        "V7uGCnR6qIVqA6JZ": {
+            "name": "Облако смерти [Cloudkill]"
+        },
+        "mKFv2wJLCSLzY2IG": {
+            "name": "Приказ [Command]"
+        },
+        "EkzkGFHAQL86Ec0M": {
+            "name": "Вызов на дуэль [Compelled duel]"
+        },
+        "3jCuuiMvtGrzmMYz": {
+            "name": "Корона безумия [Crown of Madness]"
+        },
+        "rTllkWMxnuGbfrLV": {
+            "name": "Мантия крестоносца [Crusader's mantle]"
+        },
+        "LU6P6r1fW52d2B1i": {
+            "name": "Тьма [Darkness]"
+        },
+        "HMD42mzSA7svwpw4": {
+            "name": "Защита от смерти [Death ward]"
+        },
+        "aJtGlHwxODWlWGwI": {
+            "name": "Разрушительная волна [Destructive wave]"
+        },
+        "nuc4fPAw5sX2H8kr": {
+            "name": "Обнаружение магии [Detect magic]"
+        },
+        "295oEbbUEP9CGfGm": {
+            "name": "Распад [Disintegrate]"
+        },
+        "HRdgTlmeuTclVROE": {
+            "name": "Божественная кара [Divine Smite]"
+        },
+        "GxN22bmGnEDO6Rt9": {
+            "name": "Дыхание дракона [Dragon's Breath]"
+        },
+        "GIWWhOqWKRVbotF0": {
+            "name": "Мистический заряд [Eldritch Blast]"
+        },
+        "UVtWUtISe5p6TVZ9": {
+            "name": "Стихийное оружие [Elemental weapon]"
+        },
+        "5OjqPevPkxM3caRe": {
+            "name": "Увеличение/уменьшение [Enlarge/reduce]"
+        },
+        "3t8dxFste4EUphnI": {
+            "name": "Огонь фей [Faerie fire]"
+        },
+        "GdV7YAgzesdeuxOY": {
+            "name": "Поиск фамильяра [Find Familiar]"
+        },
+        "WiFTWBHC4xTzkJ2i": {
+            "name": "Огненный щит [Fire Shield]"
+        },
+        "CmKRaOP0e1L1RPi8": {
+            "name": "Огненная буря [Fire storm]"
+        },
+        "Vgets2smltLTIHTl": {
+            "name": "Горящий клинок [Flame blade]"
+        },
+        "ssPKgcMfmLz0JztX": {
+            "name": "Пылающая сфера [Flaming Sphere]"
+        },
+        "zmvWN8MZr90BHHvd": {
+            "name": "Полёт [Fly]"
+        },
+        "6WhWgBSO5NxxJaJB": {
+            "name": "Туманное облако [Fog cloud]"
+        },
+        "FHc5vFcpo3OVMIj9": {
+            "name": "Газообразная форма [Gaseous form]"
+        },
+        "6tJJpvWH56Hq45i9": {
+            "name": "Скольжение [Grease]"
+        },
+        "t1ET3JzcvHhLnHPU": {
+            "name": "Страж веры [Guardian of faith]"
+        },
+        "q8m4PLylGaSWiGlX": {
+            "name": "Направляющий снаряд [Guiding bolt]"
+        },
+        "u6ZsBwBybLYGLc4Q": {
+            "name": "Раскалённый металл [Heat metal]"
+        },
+        "qF1ZugZRSB3pK6Zv": {
+            "name": "Удержание личности [Hold person]"
+        },
+        "6CSEfZqZzUdUG88Q": {
+            "name": "Метка охотника [Hunter's Mark]"
+        },
+        "yGiPfUoUHZCpzfnZ": {
+            "name": "Гипнотический узор [Hypnotic pattern]"
+        },
+        "7ogMag9zkOqfjt2p": {
+            "name": "Волшебная стрела [Magic missile]"
+        },
+        "kPC9HqhQrEVXFAEU": {
+            "name": "Множественное лечение ран [Mass Cure Wounds]"
+        },
+        "YYTDJVU8zexhvxMS": {
+            "name": "Мельфова кислотная стрела [Melf's acid arrow]"
+        },
+        "TeMWcejb1ripRret": {
+            "name": "Расщепление разума [Mind Sliver]"
+        },
+        "wSqfN94GpKMI23FN": {
+            "name": "Туманный шаг [Misty step]"
+        },
+        "z92oDaB1tWGoASy3": {
+            "name": "Лунный луч [Moonbeam]"
+        },
+        "V5QNqnbFOnETCn9I": {
+            "name": "Бесследное передвижение [Pass without trace]"
+        },
+        "iJdwzVKzGMbOuXmD": {
+            "name": "Слово силы: исцеление [Power Word Heal]"
+        },
+        "wY0DhFVenhHICB8F": {
+            "name": "Слово силы: смерть [Power Word Kill]"
+        },
+        "YLdLnvBtK8ksdXgd": {
+            "name": "Защита от зла и добра [Protection from evil and good]"
+        },
+        "b5QjV4tsv31a9vmL": {
+            "name": "Палящий луч [Scorching ray]"
+        },
+        "3gaZzwNC57xmEO6K": {
+            "name": "Палящая кара [Searing Smite]"
+        },
+        "8LtjGzixLl1GvrEj": {
+            "name": "Щит [Shield]"
+        },
+        "XA5iQjOCcNJ8REE7": {
+            "name": "Щит веры [Shield of faith]"
+        },
+        "4N3giP0alIZDP5U7": {
+            "name": "Сияющая кара [Shining Smite]"
+        },
+        "aqwASYbBOqJCioG8": {
+            "name": "Шипастая поросль [Spike growth]"
+        },
+        "1Z3tR4yDPjQDHxbM": {
+            "name": "Духовные стражи [Spirit Guardians]"
+        },
+        "Fq5v1j8GJf4WPEQk": {
+            "name": "Божественное оружие [Spiritual Weapon]"
+        },
+        "pWhk7JxUZQJWJpkk": {
+            "name": "Оглушающая кара [Staggering Smite]"
+        },
+        "HAUzYzrkcbifhM0P": {
+            "name": "Терновый кнут [Thorn Whip]"
+        },
+        "vpUJ0FpXiaJfKzX1": {
+            "name": "Громовая кара [Thunderous Smite]"
+        },
+        "bJAJgXCpLhN3JFER": {
+            "name": "Волна грома [Thunderwave]"
+        },
+        "ZP4AYkp8jKluNXCZ": {
+            "name": "Погребальный звон [Toll the Dead]"
+        },
+        "qRXJYyQXej8O6EJ9": {
+            "name": "Меткий удар [True Strike]"
+        },
+        "6ZnoNAyw39RH0w9K": {
+            "name": "Прикосновение вампира [Vampiric touch]"
+        },
+        "Dy9Ye5uVIIDVZfC7": {
+            "name": "Едкий шар [Vitriolic sphere]"
+        },
+        "hT6dOAd3hk0NPgiE": {
+            "name": "Стена огня [Wall of Fire]"
+        },
+        "a8sTx0QQxlVohhuL": {
+            "name": "Желание [Wish]"
+        },
+        "DVJF4dPyVRt4X9qt": {
+            "name": "Область истины [Zone of truth]"
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "label": "CPR Class Features",
+    "folders": {
+        "Path of the Zealot": "Путь фанатика",
+        "Path of the Berserker": "Путь берсерка",
+        "Life Domain": "Домен жизни",
+        "College of Lore": "Коллегия знаний",
+        "College of Valor": "Коллегия доблести",
+        "Barbarian": "Варвар",
+        "College of Glamour": "Коллегия очарования",
+        "Bard": "Бард",
+        "Path of the Wild Heart": "Путь дикого сердца",
+        "College of Dance": "Коллегия танца",
+        "Path of the World Tree": "Путь Мирового древа",
+        "Cleric": "Жрец"
+    },
+    "entries": {
+        "DRVXrFO3c6h1yvhj": {
+            "name": "Аспект дикой природы"
+        },
+        "XNCB8wD9tGOzinO2": {
+            "name": "Бардовское вдохновение"
+        },
+        "tXtyXl1oq15Gvy92": {
+            "name": "Колотящие корни"
+        },
+        "MYMzSKW3VzMM2mWs": {
+            "name": "Чарующая магия"
+        },
+        "XLksqvjovcFYhBrO": {
+            "name": "Благословенный целитель"
+        },
+        "RCJf5OPvsR27bYDa": {
+            "name": "Божественный удар"
+        },
+        "gPee05fI7DN4VMLY": {
+            "name": "Могущественное колдовство"
+        },
+        "18CVh9QkTxcUa2Mq": {
+            "name": "Ветви Древа"
+        },
+        "BW9ZusSI1uSqKHc7": {
+            "name": "Жестокий удар"
+        },
+        "8TAqEF4CjM3H9MoT": {
+            "name": "Проведение божественности"
+        },
+        "Az37ULOhExyMYxbN": {
+            "name": "Боевое вдохновение"
+        },
+        "rMEjLPBSVUzEu34R": {
+            "name": "Контрочарование"
+        },
+        "vrfpAdWA7VPfVQYg": {
+            "name": "Острое словцо"
+        },
+        "MrWzN6HYPBGLSwb5": {
+            "name": "Чувство опасности"
+        },
+        "YgtXGKPr7Q9EXaFN": {
+            "name": "Ослепительные фуэте"
+        },
+        "kciMozW5g0pnSZOq": {
+            "name": "Поборник жизни"
+        },
+        "n9LJnULKy0ylfi5S": {
+            "name": "Божественный гнев"
+        },
+        "xZsVWJgcjPkrNZLq": {
+            "name": "Божественное вмешательство"
+        },
+        "rAQRafdsdzTA3yl8": {
+            "name": "Чудотворец"
+        },
+        "dc4fB6WjL4d6frYB": {
+            "name": "Концентрация фанатика"
+        },
+        "U0gHu5I0LMfy8TUi": {
+            "name": "Дикий инстинкт"
+        },
+        "XTMiUwKF3kEI3u4O": {
+            "name": "Источник вдохновения"
+        },
+        "ZazgmQKKyx53WpOb": {
+            "name": "Бешенство"
+        },
+        "UjhOKkz6tavZ1Ajx": {
+            "name": "Великое божественное вмешательство"
+        },
+        "6EHeNcOYmjygYF9h": {
+            "name": "Improved Blessed Strikes: Divine Strike"
+        },
+        "o938b4yDiwzaPixd": {
+            "name": "Improved Blessed Strikes: Potent Spellcasting"
+        },
+        "RL03Xgcct5qhlj1b": {
+            "name": "Улучшенный Жестокий удар"
+        },
+        "1NRw3VTnbLHxKlIb": {
+            "name": "Неукротимая мощь"
+        },
+        "vb0yLWq27sbWEmLi": {
+            "name": "Вдохновляющее перемещение"
+        },
+        "PuRu24mLzs9GZouG": {
+            "name": "Пугающее присутствие"
+        },
+        "NuECRrK7SxE0ylq2": {
+            "name": "Мастер на все руки"
+        },
+        "UdZpomOTKrKtFhhV": {
+            "name": "Ведущее уклонение"
+        },
+        "RKFGE30ziKkAiK6G": {
+            "name": "Мантия вдохновения"
+        },
+        "n8WDNU1mE1Pk9rKT": {
+            "name": "Мантия величия"
+        },
+        "QSWI1laAnATG6I7e": {
+            "name": "Бездумная ярость"
+        },
+        "Fy9zQrjSnwBJzi9A": {
+            "name": "Непревзойдённый навык"
+        },
+        "U3o9hrg2L9qAKwo1": {
+            "name": "Непрерывная ярость"
+        },
+        "pdWqnFaIaRYG0DcS": {
+            "name": "Сила дикой природы"
+        },
+        "5RzfKlFm01B59UuG": {
+            "name": "Сохранение жизни"
+        },
+        "M93V0KRC4nqRBVEj": {
+            "name": "Первобытное знание"
+        },
+        "UzWJKNXRrzqkoCu5": {
+            "name": "Ярость"
+        },
+        "txOmc64K0CMxd7Io": {
+            "name": "Ярость богов"
+        },
+        "Wix7HPk9pAM2y7NK": {
+            "name": "Ярость дикой природы"
+        },
+        "c06q5MtDNhK1yfrn": {
+            "name": "Безрассудная атака"
+        },
+        "5s2VeuRXkMF7v2lB": {
+            "name": "Непреклонная ярость"
+        },
+        "WoKRp1rV9gPFO8yR": {
+            "name": "Испепеление нежити"
+        },
+        "S4YTwKY5KbO6GY94": {
+            "name": "Превосходное вдохновение"
+        },
+        "XKERj46W5xoLcWjr": {
+            "name": "Совместный танец"
+        },
+        "7WimgopDuF1Aypze": {
+            "name": "Путешествие по древу"
+        },
+        "y5cAI01kFeDPZehc": {
+            "name": "Unarmored Defense (Barbarian)"
+        },
+        "a80LOcFe72kAuEGK": {
+            "name": "Несокрушимое величие"
+        },
+        "a6IlqIPcfz98bubr": {
+            "name": "Жизненная сила Древа"
+        },
+        "axzGwYpI6481YFLR": {
+            "name": "Воин богов"
+        },
+        "qY5OeRzdH8z2pmme": {
+            "name": "Фанатичное присутствие"
+        }
+    }
+}
