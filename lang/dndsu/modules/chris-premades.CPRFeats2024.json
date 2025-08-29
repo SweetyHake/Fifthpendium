@@ -1,0 +1,65 @@
+{
+	"label": "CPR Черты",
+	"folders": {
+		"Fighting Styles": "Черты боевых стилей"
+	},
+	"entries": {
+		"Alert": {
+			"name": "Бдительный [Alert]"
+		},
+		"Archery": {
+			"name": "Стрельба [Archery]"
+		},
+		"Crusher": {
+			"name": "Крушитель [Crusher]"
+		},
+		"Defense": {
+			"name": "Защита [Defense]"
+		},
+		"Dueling": {
+			"name": "Дуэлянт [Dueling]"
+		},
+		"Grappler": {
+			"name": "Борец [Grappler]"
+		},
+		"Great Weapon Fighting": {
+			"name": "Сражение большим оружием [Great Weapon Fighting]"
+		},
+		"Healer": {
+			"name": "Лекарь [Healer]"
+		},
+		"Heavy Armor Master": {
+			"name": "Мастер тяжёлых доспехов [Heavy Armor Master]"
+		},
+		"Interception": {
+			"name": "Перехват [Interception]"
+		},
+		"Piercer": {
+			"name": "Пронзатель [Piercer]"
+		},
+		"Protection": {
+			"name": "Защита [Protection]"
+		},
+		"Savage Attacker": {
+			"name": "Неистово атакующий [Savage Attacker]"
+		},
+		"Sharpshooter": {
+			"name": "Меткий стрелок [Sharpshooter]"
+		},
+		"Slasher": {
+			"name": "Рубака [Slasher]"
+		},
+		"Speedy": {
+			"name": "Быстрый [Speedy]"
+		},
+		"Telekinetic: Shove": {
+			"name": "Телекинетик [Telekinetic]"
+		},
+		"Thrown Weapon Fighting": {
+			"name": "Сражение метательным оружием [Thrown Weapon Fighting]"
+		},
+		"Unarmed Fighting": {
+			"name": "Сражение без оружия [Unarmed Fighting]"
+		}
+	}
+}

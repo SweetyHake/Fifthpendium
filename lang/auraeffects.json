@@ -1,0 +1,109 @@
+{
+    "AURAEFFECTS": {
+        "ACTIVEEFFECT": {
+            "Aura": {
+                "FIELDS": {
+                    "applyToSelf": {
+                        "hint": "Если включено, то будет применять ауру к актеру-источнику эффекта.",
+                        "label": "Применять к себе"
+                    },
+                    "bestFormula": {
+                        "hint": "Формула, которая определяет то, какая из нескольких аур с одинаковым названием будет наложена. Если пусто, то будет наложена та аура, что появилась первой.",
+                        "label": "\"Лучшая\" формула"
+                    },
+                    "canStack": {
+                        "hint": "Если включено, другие ауры с таким же названием могут применяться к одному и тому же токену.",
+                        "label": "Аура может складываться"
+                    },
+                    "collisionTypes": {
+                        "hint": "Опредяет то, какие стены будут преграждать ауру.",
+                        "label": "Типы коллизии"
+                    },
+                    "color": {
+                        "hint": "Если пусто, то будет использовать цвет пользователя (или Ведущего, если актер не назначен никакому пользователю).",
+                        "label": "Цвет"
+                    },
+                    "combatOnly": {
+                        "hint": "Если включено, то эффект будет отключен, пока токен находится вне боя.",
+                        "label": "Только в бою"
+                    },
+                    "disableOnHidden": {
+                        "hint": "Если включено, то эффект будет отключен пока токен скрыт.",
+                        "label": "Отключить, если токен скрыт"
+                    },
+                    "disposition": {
+                        "Choices": {
+                            "Any": "Любое",
+                            "Friendly": "Дружественный",
+                            "Hostile": "Враждебный"
+                        },
+                        "hint": "Какое отношение должен иметь токен (относительно актера-источника), чтобы к нему применилась аура.",
+                        "label": "Отношение"
+                    },
+                    "distanceFormula": {
+                        "hint": "Определяет радиус ауры (значения бросков поддерживаются).",
+                        "label": "Дистанция"
+                    },
+                    "evaluatePreApply": {
+                        "hint": "If enabled, change values will be evaluated prior to effect application, using the source actor's roll data if necessary.",
+                        "label": "Evaluate Changes Early"
+                    },
+                    "opacity": {
+                        "hint": "Определяет прозрачность отображаемой ауры.",
+                        "label": "Прозрачность"
+                    },
+                    "overrideName": {
+                        "hint": "Определяет название отображаемого эффекта (оставьте пустым, чтобы сохранить название от изначального эффекта).",
+                        "label": "Название эффекта"
+                    },
+                    "script": {
+                        "hint": "Скрипт, являющийся условием, при котором аура будет применяться.",
+                        "label": "Скрипт при условии"
+                    },
+                    "showRadius": {
+                        "hint": "Отображает границы ауры для всех пользователей.",
+                        "label": "Отображать радиус"
+                    }
+                }
+            }
+        },
+        "ConvertToAura": "Превратить в ауру",
+        "ConvertToAuraHint": "Это превратит эффект в Ауру.",
+        "ConvertToNormal": "Обратить в обычный эффект",
+        "ConvertToNormalHint": "Это превратит Ауру обратно в обычный эффект; все настройки ауры будут потеряны.",
+        "Errors": {
+            "ScriptError": "Error while running Aura Effects Conditional Script for effect \"{effect}\" on actor \"{actor}\":\n{error}"
+        },
+        "Migrations": {
+            "ActiveAurasBegin": "Beginning migration from Active Auras to Aura Effects...",
+            "ActiveAurasChatMessage": "Thank you for installing Aura Effects! If you previously used Active Auras, there is a migration script to convert all of your Active Aura effects into Aura Effects. You can find it at any time in the Aura Effects compendium folder, or execute it by clicking here: @UUID[Compendium.auraeffects.AuraEffectsMacros.Macro.NeaP6NSy6TzLQuKS]{Migrate from Active Auras}",
+            "ActiveAurasComplete": "Migration from Active Auras to Aura Effects now complete!",
+            "AllCompleted": "All Aura Effects migrations completed!",
+            "Beginning": "Beginning Aura Effects migrations..."
+        },
+        "NoActiveGM": "Aura Effects will not attempt to function without a GM logged in.",
+        "SETTINGS": {
+            "DefaultVisibility": {
+                "Hint": "Если включено, то отображение дальности аур будет включено по умолчанию на всех новосозданных эффектах.",
+                "Name": "Эффекты Аур видны по умолчанию"
+            },
+            "DisableScrollingText": {
+                "Hint": "Отключает всплывающий текст, появляющийся при добавлении/удалении эффекта, когда вы входите/покидаете ауру.",
+                "Name": "Отключить всплывающий текст для эффектов аур."
+            },
+            "DisableVisuals": {
+                "Hint": "Отключает отображение аур, вне зависимости от настройки эффекта.",
+                "Name": "Отключить отображение радиуса"
+            },
+            "ExactCircles": {
+                "Hint": "When enabled, visualized auras will be shown as perfect circles when \"Grid Diagonals\" is set to \"Exact.\" (This can result in inaccurate visualizations around the edges of circles, especially with larger aura radii).",
+                "Name": "Show Circles with Exact Diagonals"
+            }
+        },
+        "SHEETS.AuraActiveEffectSheet": "Aura Active Effect Sheet"
+    },
+    "EFFECT.TABS": {
+        "aura": "Аура"
+    },
+    "TYPES.ActiveEffect.auraeffects.aura": "Аура"
+}

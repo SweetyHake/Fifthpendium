@@ -1,5 +1,46 @@
 {
   "SOURCE.BOOK.PHB2024": "Player's Handbook (2024)",
   "SOURCE.BOOK.DMG2024": "Dungeon Master's Guide (2024)",
-  "SOURCE.BOOK.MM2024": "Monster Manual (2024)"
+  "SOURCE.BOOK.MM2024": "Monster Manual (2024)",
+  "FP":{
+    "Settings":{
+      "Confirm": "Confirm",
+      "EnableSysLang":{
+        "name": "Translate system",
+        "hint": "Only for russian translations."
+      },
+      "EnableModLang":{
+        "name": "Translate modules",
+        "hint": "Only for russian translations."
+      },
+      "compendiumTranslation":{
+        "name": "Terminology",
+        "hint": "Only for russian translations."
+      },
+      "expandedWeaponlist":{
+        "name": "Expanded Weapon List",
+        "hint": "Registers expanded weapon list in system",
+        "fname": "Time Period",
+        "Renaissance": "Renaissance",
+        "IndustrialRevolution": "Industrial Revolution",
+        "Present": "Present",
+        "Future": "Future",
+        "Disabled": "Disabled (Renaissance)",
+        "Expanded": "Expanded (Industrial Revolution)",
+        "Modern": "Modern (Present)",
+        "Futuristic": "Futuristic (Future)"
+      },
+      "IconVariant": {
+        "name": "Icon Variant",
+        "hint": "Select prefered icons variant that you prefer to see in module.",
+        "shint": "Select icons variant",
+        "modern": "Modern",
+        "legacy": "Legacy"
+      }
+    },
+    "Init":{
+      "Hello": "Thank you for downloading Fifthpendium. Select your prefered settings.",
+      "Title": "Fifthpendium - First Launch"
+    }
+  }
 }

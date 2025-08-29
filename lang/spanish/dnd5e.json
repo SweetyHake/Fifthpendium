@@ -447,20 +447,6 @@
         "Monster.other": "Монстры"
       }
     },
-    "SPELLCASTING": {
-      "SLOTS": {
-        "spell0": "Заговоры",
-        "spell1": "1-й уровень",
-        "spell2": "2-й уровень",
-        "spell3": "3-й уровень",
-        "spell4": "4-й уровень",
-        "spell5": "5-й уровень",
-        "spell6": "6-й уровень",
-        "spell7": "7-й уровень",
-        "spell8": "8-й уровень",
-        "spell9": "9-й уровень"
-      }
-    },
     "SpellSlotN.one": "{n}-я ячейка заклинаний",
     "SpellSlotN.two": "{n}-я ячейка заклинаний",
     "SpellSlotN.few": "{n}-я ячейка заклинаний",
@@ -1014,7 +1000,6 @@
     "SpellCantrip": "Заговор",
     "SpellCastUpcast": "Сотворить на уровне",
     "SpellDC": "Сл заклинаний",
-
     "SpellLevel": "Уровень",
     "SpellLevel0": "Заговор",
     "SpellLevel1": "1-й уровень",

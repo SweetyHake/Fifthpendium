@@ -1,10 +1,10 @@
 {
-  "label": "CPR Классовые умения",
+  "label": "CPR Class Features",
   "folders": {
-    "Barbarian": "Варвар",
-    "Bard": "Бард",
-    "Cleric": "Жрец",
-    "College of Dance": "Коллегия танца",
+    "Barbarian": "Barbarian",
+    "Bard": "Bard",
+    "Cleric": "Cleric",
+    "College of Dance": "College of Dance",
     "College of Glamour": "College of Glamour",
     "College of Lore": "College of Lore",
     "College of Valor": "College of Valor",
@@ -31,7 +31,7 @@
       "name": "Путешествие по древу"
     },
     "8TAqEF4CjM3H9MoT": {
-      "name": "Проведение божественности (Жрец)"
+      "name": "Проведение божественности"
     },
     "Az37ULOhExyMYxbN": {
       "name": "Боевое вдохновение"
