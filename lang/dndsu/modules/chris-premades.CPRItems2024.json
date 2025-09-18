@@ -1,0 +1,78 @@
+{
+  "label": "CPR Предметы",
+  "folders": {},
+  "entries": {
+    "KoUikesgNh9l5ojE": {
+      "name": "Комплект целителя [Healer's Kit]"
+    },
+    "VTaSB3arxbOW7zGn": {
+      "name": "Безоружный удар (Бой без оружия)",
+      "activities": {
+        "tXuqg671lGrdE8Kh": {
+          "name": "Урон"
+        },
+        "kNTcL5BuY6WQnk1k": {
+          "name": "Захват"
+        },
+        "siI1csz5wTzrT7gx": {
+          "name": "Толчок (Опрокинуть)"
+        },
+        "bPilG1rghSA1UudO": {
+          "name": "Толчок (Оттолкнуть)"
+        },
+        "P3HXvBd9fh5mNRXy": {
+          "name": "Спасбросок Ловкости"
+        },
+        "OvMIYDtlDZ1Sq8Ov": {
+          "name": "Спасбросок Силы"
+        }
+      }
+    },
+    "aIIdFngh4nXaOovf": {
+      "name": "Безоружный удар (Трактирный забияка)",
+      "activities": {
+        "tXuqg671lGrdE8Kh": {
+          "name": "Урон"
+        },
+        "kNTcL5BuY6WQnk1k": {
+          "name": "Захват"
+        },
+        "siI1csz5wTzrT7gx": {
+          "name": "Толчок (Опрокинуть)"
+        },
+        "bPilG1rghSA1UudO": {
+          "name": "Толчок (Оттолкнуть)"
+        },
+        "P3HXvBd9fh5mNRXy": {
+          "name": "Спасбросок Ловкости"
+        },
+        "OvMIYDtlDZ1Sq8Ov": {
+          "name": "Спасбросок Силы"
+        }
+      }
+    },
+    "nuzzOveNI1waBYQy": {
+      "name": "Безоружный удар [Unarmed Strike]",
+      "activities": {
+        "tXuqg671lGrdE8Kh": {
+          "name": "Урон"
+        },
+        "kNTcL5BuY6WQnk1k": {
+          "name": "Захват"
+        },
+        "siI1csz5wTzrT7gx": {
+          "name": "Толчок (Опрокинуть)"
+        },
+        "bPilG1rghSA1UudO": {
+          "name": "Толчок (Оттолкнуть)"
+        },
+        "P3HXvBd9fh5mNRXy": {
+          "name": "Спасбросок Ловкости"
+        },
+        "OvMIYDtlDZ1Sq8Ov": {
+          "name": "Спасбросок Силы"
+        }
+      }
+    }
+  }
+}

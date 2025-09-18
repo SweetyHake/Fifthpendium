@@ -1,0 +1,81 @@
+{
+  "label": "GPS Заклинания 2024",
+  "folders": {},
+  "entries": {
+    "Black Tentacles": {
+      "name": "Чёрные щупальца Эварда [Evard's Black Tentacles]"
+    },
+    "Cloud of Daggers": {
+      "name": "Облако кинжалов [Cloud of Daggers]"
+    },
+    "Confusion": {
+      "name": "Смятение [Confusion]"
+    },
+    "Counterspell": {
+      "name": "Контрзаклинание [Counterspell]"
+    },
+    "Dimension Door": {
+      "name": "Переносящая дверь [Dimension Door]"
+    },
+    "Dissonant Whispers": {
+      "name": "Диссонирующий шёпот [Dissonant Whispers]"
+    },
+    "Entangle": {
+      "name": "Опутывание [Entangle]"
+    },
+    "Fireball": {
+      "name": "Огненный шар [Fireball]"
+    },
+    "Foresight": {
+      "name": "Предвидение [Foresight]"
+    },
+    "Freedom of Movement": {
+      "name": "Свобода перемещения [Freedom of Movement]"
+    },
+    "Hellish Rebuke": {
+      "name": "Адское возмездие [Hellish Rebuke]"
+    },
+    "Heroes' Feast": {
+      "name": "Пир героев [Heroes' Feast]"
+    },
+    "Hideous Laughter": {
+      "name": "Жуткий смех Таши [Tasha's Hideous Laughter]"
+    },
+    "Holy Aura": {
+      "name": "Аура святости [Holy Aura]"
+    },
+    "Ice Knife": {
+      "name": "Ледяной кинжал [Ice Knife]"
+    },
+    "Identify": {
+      "name": "Опознание [Identify]"
+    },
+    "Light": {
+      "name": "Свет [Light]"
+    },
+    "Phantasmal Killer": {
+      "name": "Воображаемый убийца [Phantasmal Killer]"
+    },
+    "Power Word Heal": {
+      "name": "Слово силы: исцеление [Power Word Heal]"
+    },
+    "Power Word Stun": {
+      "name": "Слово силы: ошеломление [Power Word Stun]"
+    },
+    "Ray of Sickness": {
+      "name": "Луч болезни [Ray of Sickness]"
+    },
+    "Sleep": {
+      "name": "Усыпление [Sleep]"
+    },
+    "Stinking Cloud": {
+      "name": "Зловонное облако [Stinking Cloud]"
+    },
+    "Vicious Mockery": {
+      "name": "Злая насмешка [Vicious Mockery]"
+    },
+    "Web": {
+      "name": "Паутина [Web]"
+    }
+  }
+}

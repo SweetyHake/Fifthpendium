@@ -1,65 +1,106 @@
 {
-	"label": "CPR Черты",
-	"folders": {
-		"Fighting Styles": "Черты боевых стилей"
-	},
-	"entries": {
-		"Alert": {
-			"name": "Бдительный [Alert]"
-		},
-		"Archery": {
-			"name": "Стрельба [Archery]"
-		},
-		"Crusher": {
-			"name": "Крушитель [Crusher]"
-		},
-		"Defense": {
-			"name": "Защита [Defense]"
-		},
-		"Dueling": {
-			"name": "Дуэлянт [Dueling]"
-		},
-		"Grappler": {
-			"name": "Борец [Grappler]"
-		},
-		"Great Weapon Fighting": {
-			"name": "Сражение большим оружием [Great Weapon Fighting]"
-		},
-		"Healer": {
-			"name": "Лекарь [Healer]"
-		},
-		"Heavy Armor Master": {
-			"name": "Мастер тяжёлых доспехов [Heavy Armor Master]"
-		},
-		"Interception": {
-			"name": "Перехват [Interception]"
-		},
-		"Piercer": {
-			"name": "Пронзатель [Piercer]"
-		},
-		"Protection": {
-			"name": "Защита [Protection]"
-		},
-		"Savage Attacker": {
-			"name": "Неистово атакующий [Savage Attacker]"
-		},
-		"Sharpshooter": {
-			"name": "Меткий стрелок [Sharpshooter]"
-		},
-		"Slasher": {
-			"name": "Рубака [Slasher]"
-		},
-		"Speedy": {
-			"name": "Быстрый [Speedy]"
-		},
-		"Telekinetic: Shove": {
-			"name": "Телекинетик [Telekinetic]"
-		},
-		"Thrown Weapon Fighting": {
-			"name": "Сражение метательным оружием [Thrown Weapon Fighting]"
-		},
-		"Unarmed Fighting": {
-			"name": "Сражение без оружия [Unarmed Fighting]"
-		}
-	}
+  "label": "CPR Черты",
+  "folders": {
+    "Черты Боевых стилей": "Черты Боевых стилей"
+  },
+  "entries": {
+    "03nom9MxLVPjtWvt": {
+      "name": "Меткий стрелок [Sharpshooter]",
+      "effects": {
+        "XNHZUZWx8ulIFnkz": {
+          "name": "Меткий стрелок"
+        }
+      }
+    },
+    "4HdEciuWQL8A6MT6": {
+      "name": "Сражение без оружия [Unarmed Fighting]"
+    },
+    "7Yk2SX1aUtd3vUPs": {
+      "name": "Стрельба [Archery]"
+    },
+    "9LjbYAeL9zhw7Epg": {
+      "name": "Стихийный адепт (Электричество)"
+    },
+    "BmXEOZmTBtMRWhDU": {
+      "name": "Стихийный адепт (Холод)"
+    },
+    "BvLdXqVIlYIaCEX7": {
+      "name": "Стихийный адепт (Звук)"
+    },
+    "C9HZujlFmGeRKUFb": {
+      "name": "Стихийный адепт (Кислота)"
+    },
+    "I6sLqFDTnsVARy9Q": {
+      "name": "Пронзатель [Piercer]"
+    },
+    "M4L6jsyi1Iw7B7f5": {
+      "name": "Защита [Protection]"
+    },
+    "QkY5tz2NibBrQrt7": {
+      "name": "Телекинетик [Telekinetic]"
+    },
+    "QrJ7RlV7Fv2y7EI3": {
+      "name": "Лекарь [Healer]"
+    },
+    "RHBkxmZdGXlGkxSk": {
+      "name": "Борец [Grappler]"
+    },
+    "UwvQou5h9CH1OtNs": {
+      "name": "Быстрый [Speedy]",
+      "effects": {
+        "YaNTjPU4wRA8lqEw": {
+          "name": "Быстрый"
+        }
+      }
+    },
+    "XaV4KpDzlPb1ZNZ6": {
+      "name": "Сражение большим оружием [Great Weapon Fighting]"
+    },
+    "ZF09cgXfQf9N0yAc": {
+      "name": "Бдительный [Alert]",
+      "effects": {
+        "UybODIJuEGYraIPf": {
+          "name": "Бдительный"
+        }
+      }
+    },
+    "gJndV56fvJQ4rRa0": {
+      "name": "Перехват [Interception]"
+    },
+    "gr4Ly3VvsSjGcn5d": {
+      "name": "Стихийный адепт (Огонь)"
+    },
+    "hWKtbUPxXqHsfIdD": {
+      "name": "Мастер тяжёлых доспехов [Heavy Armor Master]",
+      "effects": {
+        "N88xnSzt8VDZyr4w": {
+          "name": "Мастер тяжёлых доспехов"
+        }
+      }
+    },
+    "lHusxxczYQGmDULR": {
+      "name": "Трактирный забияка [Tavern Brawler]"
+    },
+    "mIphByXLIWw5Hm8E": {
+      "name": "Дуэлянт [Dueling]"
+    },
+    "mYLFzbLkASJu8N6e": {
+      "name": "Сражение метательным оружием [Thrown Weapon Fighting]"
+    },
+    "mvOXJSKGqf7vGSwF": {
+      "name": "Трактирный забияка: Увеличение силы [Tavern Brawler: Strength Score]"
+    },
+    "n3smBxro6hctDWNS": {
+      "name": "Защита [Defense]"
+    },
+    "u452vFFSjqOKIawF": {
+      "name": "Крушитель [Crusher]"
+    },
+    "wjtCy4BTEIDWygBH": {
+      "name": "Рубака [Slasher]"
+    },
+    "y19VaEthz6trgP00": {
+      "name": "Неистово атакующий [Savage Attacker]"
+    }
+  }
 }

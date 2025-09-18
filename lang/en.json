@@ -17,6 +17,12 @@
         "name": "Terminology",
         "hint": "Only for russian translations."
       },
+      "RecomendedSettings":{
+        "name": "Recomended settings",
+        "short": "Recom. settings",
+        "label": "Apply Recomended Settings",
+        "hint": "Enables Polymorth and Summon for Players, removes unnecessary compendiums from Compendium Browser."
+      },
       "expandedWeaponlist":{
         "name": "Expanded Weapon List",
         "hint": "Registers expanded weapon list in system",
@@ -41,6 +47,49 @@
     "Init":{
       "Hello": "Thank you for downloading Fifthpendium. Select your prefered settings.",
       "Title": "Fifthpendium - First Launch"
+    }
+  },
+  "SLighting": {
+    "LightingSource": "Lighting Source",
+    "OutOfStock": "This item is expended.",
+    "ignite": "Ignite",
+    "distinguish": "Distinguish",
+    "Settings": {
+      "LightTimer":{
+        "name": "SLighting: Light Effects Timer",
+        "hint": "Add a timer to all lighing sources. If disabled, they will persist indefinitely."
+      }
+    },
+    "torch": {
+      "name": "Torch",
+      "DoDialog": "What would you like to do with your Torch?"
+    },
+    "throw": {
+      "torch": "Throw",
+      "candle": "Put Down",
+      "lamp": "Put Down",
+      "bullseye": "Put Down",
+      "hooded": "Put Down"
+    },
+    "hood": {
+      "on": "Lower the hood",
+      "off": "Raise the hood"
+    },
+    "candle": {
+      "name": "Candle",
+      "DoDialog": "What would you like to do with your Candle?"
+    },
+    "lamp": {
+      "name": "Lamp",
+      "DoDialog": "What would you like to do with your Lamp?"
+    },
+    "bullseye": {
+      "name": "Bullseye Lantern",
+      "DoDialog": "What would you like to do with your Lantern?"
+    },
+    "hooded": {
+      "name": "Hooded Lantern",
+      "DoDialog": "What would you like to do with your Lantern?"
     }
   }
 }

@@ -1,25 +1,27 @@
 {
   "label": "CPR Классовые умения",
-  "folders": {
-    "Barbarian": "Варвар",
-    "Bard": "Бард",
-    "Cleric": "Жрец",
-    "College of Dance": "Коллегия танца",
-    "College of Glamour": "College of Glamour",
-    "College of Lore": "College of Lore",
-    "College of Valor": "College of Valor",
-    "Life Domain": "Life Domain",
-    "Path of the Berserker": "Path of the Berserker",
-    "Path of the Wild Heart": "Path of the Wild Heart",
-    "Path of the World Tree": "Path of the World Tree",
-    "Path of the Zealot": "Path of the Zealot"
-  },
   "entries": {
     "18CVh9QkTxcUa2Mq": {
-      "name": "Ветви Древа"
+      "name": "Ветви Древа",
+      "effects": {
+        "BKgXclClBWa3Ovu8": {
+          "name": "Ветви Древа"
+        }
+      }
     },
     "1NRw3VTnbLHxKlIb": {
       "name": "Неукротимая мощь"
+    },
+    "3M8Uxjdax3fNAxXC": {
+      "name": "Благословение обманщика",
+      "effects": {
+        "Ns6ZImvsnZkxFelb": {
+          "name": "Благословение обманщика"
+        }
+      }
+    },
+    "bqBotoUyB3dIP7e3": {
+      "name": "Улыбка фортуны"
     },
     "5RzfKlFm01B59UuG": {
       "name": "Сохранение жизни"
@@ -27,143 +29,496 @@
     "5s2VeuRXkMF7v2lB": {
       "name": "Непреклонная ярость"
     },
+    "RRhFLoYvWVvPhGZR": {
+      "name": "Скрытая атака"
+    },
+    "6Asx7vSKAL2SNxCy": {
+      "name": "Благословение бога войны"
+    },
     "7WimgopDuF1Aypze": {
-      "name": "Путешествие по древу"
+      "name": "Путешествие по древу",
+      "activities": {
+        "utilityTATTclass": {
+          "name": "Телепорт"
+        },
+        "addGroupTelepo1I": {
+          "name": "Телепорт (Групповой)"
+        }
+      }
     },
     "8TAqEF4CjM3H9MoT": {
-      "name": "Проведение божественности (Жрец)"
+      "name": "Проведение божественности (Жрец)",
+      "effects": {
+        "QrKyuIYVLsuu6loA": {
+          "name": "Проведение божественности: Изгнание нежити"
+        },
+        "MGaDBywjDvinEsJF": {
+          "name": "Божественная искра: Заклинатель"
+        }
+      },
+      "activities": {
+        "cEAprkmWvIYPQLHZ": {
+          "name": "Божественная искра"
+        },
+        "h8MiEz3tGKnSOU7p": {
+          "name": "Изгнание нежити"
+        },
+        "xwMXv3ewSHqGOxJm": {
+          "name": "Божественная искра: Исцеление"
+        },
+        "lJhGhaMHg0LzWXrK": {
+          "name": "Божественная искра: Урон"
+        }
+      }
     },
     "Az37ULOhExyMYxbN": {
-      "name": "Боевое вдохновение"
+      "name": "Боевое вдохновение",
+      "effects": {
+        "n07KtWUMtZuIIvNu": {
+          "name": "Боевое вдохновение"
+        }
+      }
     },
     "BW9ZusSI1uSqKHc7": {
-      "name": "Жестокий удар"
+      "name": "Жестокий удар",
+      "activities": {
+        "60MVL0qwthcrRRTT": {
+          "name": "Мощный удар"
+        },
+        "raTG1jCUcd66QFx9": {
+          "name": "Калечащий удар"
+        },
+        "vJNDQXsV1lZ4ZUNU": {
+          "name": "Ошеломляющий удар"
+        },
+        "B9Ks99xhqS7MhZzn": {
+          "name": "Раскалывающий удар"
+        }
+      },
+      "effects": {
+        "RG0C8hGJ74T6eGmA": {
+          "name": "Жестокий удар: Раскалывающий удар"
+        },
+        "qWqJjf4b79qPjGEc": {
+          "name": "Жестокий удар: Ошеломляющий удар"
+        },
+        "w2JVbeEazQkViyED": {
+          "name": "Жестокий удар: Раскалывающий"
+        }
+      }
     },
     "DRVXrFO3c6h1yvhj": {
-      "name": "Аспект дикой природы"
+      "name": "Аспект дикой природы",
+      "activities": {
+        "utilityAOTWclass": {
+          "name": "Сова"
+        },
+        "addPanther1IIIII": {
+          "name": "Пантера"
+        },
+        "addSalmon2IIIIII": {
+          "name": "Лосось"
+        }
+      },
+      "effects": {
+        "Bpz3jrM68RVa44c6": {
+          "name": "Аспект дикой природы: Сова"
+        },
+        "Qy91nKOF36woVSjO": {
+          "name": "Аспект дикой природы: Пантера"
+        },
+        "WGpMwa7L3FumVkSY": {
+          "name": "Аспект дикой природы: Сова"
+        }
+      }
+    },
+    "DxF2Sv4IKV8iPR7c": {
+      "name": "Хитрый удар",
+      "activities": {
+        "saveCunnStrclass": {
+          "name": "Отравление (1d6)"
+        },
+        "addTrip1IIIIIIII": {
+          "name": "Подсечка (1d6)"
+        },
+        "addWithdraw2IIII": {
+          "name": "Отступление (1d6)"
+        }
+      },
+      "effects": {
+        "9UZZ3ouSUWdI3rJF": {
+          "name": "Хитрый удар"
+        },
+        "m59GKZZ40WWoMKfT": {
+          "name": "Хитрый удар: Отступление"
+        }
+      }
     },
     "Fy9zQrjSnwBJzi9A": {
       "name": "Непревзойдённый навык"
+    },
+    "JWOdVWwd5qYsXpsS": {
+      "name": "Двуличность"
+    },
+    "KQTP2jrG270FTb6y": {
+      "name": "Хитрое действие",
+      "activities": {
+        "mZwa1WvpHEl21ay3": {
+          "name": "Рывок"
+        },
+        "s4Av2092nDTD0gao": {
+          "name": "Отход"
+        },
+        "0PZLH2ilVXleHbhJ": {
+          "name": "Затаивание"
+        }
+      },
+      "effects": {
+        "QT2eqYQOJ2r1DeIa": {
+          "name": "Рывок"
+        },
+        "E1mdPa6cascbVBLU": {
+          "name": "Отход"
+        },
+        "5n15qN1BqK51Aure": {
+          "name": "Затаивание"
+        }
+      }
+    },
+    "KnoN4rlEBs0CtzeA": {
+      "name": "Боевой священник"
+    },
+    "L98YJ0mjMpgNwBDv": {
+      "name": "Улучшенный хитрый удар"
+    },
+    "LbRdZ1FDIgTG7bd9": {
+      "name": "Невероятное уклонение",
+      "effects": {
+        "jvdtYTCzJr7zCKRV": {
+          "name": "Невероятное уклонение"
+        }
+      }
+    },
+    "LdVbFfdY0Xa6xs5g": {
+      "name": "Ограждающая вспышка",
+      "effects": {
+        "ZOQZcwJniLpXzlGb": {
+          "name": "Ограждающая вспышка"
+        }
+      }
     },
     "M93V0KRC4nqRBVEj": {
       "name": "Первобытное знание"
     },
     "MYMzSKW3VzMM2mWs": {
-      "name": "Чарующая магия"
+      "name": "Чарующая магия",
+      "activities": {
+        "9C9dvr6FwMeOu1cn": {
+          "name": "Очарование"
+        },
+        "K1E9eK2Dy5J3yinS": {
+          "name": "Испуг"
+        }
+      },
+      "effects": {
+        "kIF50ciAuOZn7GG9": {
+          "name": "Чарующая магия: Очарование"
+        },
+        "PgxKbV7Wg2O8HDBA": {
+          "name": "Чарующая магия: Испуг"
+        }
+      }
     },
     "MrWzN6HYPBGLSwb5": {
       "name": "Чувство опасности"
     },
+    "Mzs3ndaPinFZnVsP": {
+      "name": "Улучшенная ограждающая вспышка"
+    },
     "NuECRrK7SxE0ylq2": {
-      "name": "Мастер на все руки"
+      "name": "Мастер на все руки",
+      "effects": {
+        "pBLjSqL7D7GusuoD": {
+          "name": "Мастер на все руки"
+        }
+      }
     },
     "PuRu24mLzs9GZouG": {
-      "name": "Пугающее присутствие"
+      "name": "Устрашающее присутствие",
+      "effects": {
+        "jrVGjhi5tcCklGHd": {
+          "name": "Устрашающее присутствие"
+        }
+      }
     },
     "QSWI1laAnATG6I7e": {
-      "name": "Бездумная ярость"
+      "name": "Бездумная ярость",
+      "effects": {
+        "xxZmKfSpUHGG2oIn": {
+          "name": "Бездумная ярость"
+        }
+      }
+    },
+    "QbcQGfeNGXL6NFz9": {
+      "name": "Точное прицеливание",
+      "effects": {
+        "jHASsgwKNPnYIDFd": {
+          "name": "Точное прицеливание: Бонус"
+        },
+        "N01wiTCKbCxIdvP1": {
+          "name": "Точное прицеливание: Штраф к скорости"
+        }
+      }
     },
     "RCJf5OPvsR27bYDa": {
       "name": "Божественный удар"
     },
     "RKFGE30ziKkAiK6G": {
-      "name": "Мантия вдохновения"
+      "name": "Ореол вдохновения"
     },
     "RL03Xgcct5qhlj1b": {
-      "name": "Улучшенный Жестокий удар"
+      "name": "Улучшенный жестокий удар"
+    },
+    "GKt1tuFp7iXbQNdO": {
+      "name": "Коварная атака"
     },
     "S4YTwKY5KbO6GY94": {
       "name": "Превосходное вдохновение"
     },
     "U0gHu5I0LMfy8TUi": {
-      "name": "Дикий инстинкт"
+      "name": "Дикий инстинкт",
+      "effects": {
+        "W4ahieFxNoGDgfnA": {
+          "name": "Дикий инстинкт"
+        }
+      }
     },
     "U3o9hrg2L9qAKwo1": {
       "name": "Непрерывная ярость"
     },
     "UdZpomOTKrKtFhhV": {
-      "name": "Ведущее уклонение"
+      "name": "Ведущее уклонение",
+      "effects": {
+        "P0wSjQQs6koQLFXO": {
+          "name": "Ведущее уклонение"
+        },
+        "BMboKUNm6DbUo9RE": {
+          "name": "Ведущее уклонение !"
+        }
+      }
     },
     "UjhOKkz6tavZ1Ajx": {
-      "name": "Великое божественное вмешательство"
+      "name": "Великое божественное вмешательство",
+      "effects": {
+        "Xggw4uJclVKwl03h": {
+          "name": "Божественное вмешательство заблокировано"
+        }
+      }
     },
     "UzWJKNXRrzqkoCu5": {
-      "name": "Ярость"
+      "name": "Ярость",
+      "effects": {
+        "ThMOHzshB2077nV6": {
+          "name": "Ярость"
+        }
+      }
     },
     "Wix7HPk9pAM2y7NK": {
-      "name": "Ярость дикой природы"
+      "name": "Ярость дикой природы",
+      "effects": {
+        "oW0KtPAE9a54KZGK": {
+          "name": "Ярость дикой природы"
+        }
+      }
     },
     "WoKRp1rV9gPFO8yR": {
       "name": "Испепеление нежити"
-    },
-    "XKERj46W5xoLcWjr": {
-      "name": "Совместный танец"
     },
     "XLksqvjovcFYhBrO": {
       "name": "Благословенный целитель"
     },
     "XNCB8wD9tGOzinO2": {
-      "name": "Бардовское вдохновение"
+      "name": "Бардовское вдохновение",
+      "effects": {
+        "NEy5SEovH82dypyl": {
+          "name": "Бардовское вдохновение"
+        }
+      }
     },
     "XTMiUwKF3kEI3u4O": {
       "name": "Источник вдохновения"
     },
     "YgtXGKPr7Q9EXaFN": {
-      "name": "Ослепительные фуэте"
+      "name": "Ослепительные фуэте",
+      "effects": {
+        "mxDQSAlUqZ7g3Hn1": {
+          "name": "Ослепительное фуэте"
+        }
+      }
     },
     "ZazgmQKKyx53WpOb": {
       "name": "Бешенство"
     },
     "a6IlqIPcfz98bubr": {
-      "name": "Жизненная сила Древа"
+      "name": "Жизненная сила Древа",
+      "activities": {
+        "healVitaOTTclass": {
+          "name": "Прилив жизненных сил"
+        },
+        "Compendium": {
+          "chris-premades": {
+            "CPRClassFeatures2024": {
+              "Item": {
+                "a6IlqIPcfz98bubr": {
+                  "Activity": {
+                    "addLifeGiForce1I": {
+                      "name": "Живительная сила"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "a80LOcFe72kAuEGK": {
-      "name": "Несокрушимое величие"
+      "name": "Несокрушимое величие",
+      "effects": {
+        "O1CtipiKgKC3eTdE": {
+          "name": "Несокрушимое величие"
+        }
+      }
     },
     "axzGwYpI6481YFLR": {
       "name": "Воин богов"
     },
+    "b1XWThKaCYIYaMVH": {
+      "name": "Увёртливость",
+      "effects": {
+        "9L9HT0of5ENcsQyc": {
+          "name": "Увёртливость"
+        }
+      }
+    },
     "c06q5MtDNhK1yfrn": {
-      "name": "Безрассудная атака"
+      "name": "Безрассудная атака",
+      "effects": {
+        "TGIL2N5i0mE3B7Mt": {
+          "name": "Безрассудная атака"
+        }
+      }
     },
     "dc4fB6WjL4d6frYB": {
-      "name": "Концентрация фанатика"
+      "name": "Фанатичная сосредоточенность"
     },
     "gPee05fI7DN4VMLY": {
       "name": "Могущественное колдовство"
     },
+    "guatjif0fGktHzFI": {
+      "name": "Неуловимость",
+      "effects": {
+        "SaU9twsq0lyW0j0u": {
+          "name": "Неуловимость"
+        }
+      }
+    },
+    "hIfxopiYgy9wNFiu": {
+      "name": "Улучшенная двуличность"
+    },
+    "i0Z8xqT2X9nBk1ud": {
+      "name": "Скользкий ум",
+      "effects": {
+        "TfWCJf15YSfpfpZk": {
+          "name": "Скользкий ум"
+        }
+      }
+    },
     "kciMozW5g0pnSZOq": {
       "name": "Поборник жизни"
     },
+    "kvGs2I08d6ypTkFh": {
+      "name": "Корона света",
+      "effects": {
+        "bpAAaKwnNqTcgs6W": {
+          "name": "Корона света"
+        }
+      }
+    },
     "n8WDNU1mE1Pk9rKT": {
-      "name": "Мантия величия"
+      "name": "Ореол вдохновения",
+      "effects": {
+        "wcH8Q6iL5wSdygAd": {
+          "name": "Ореол вдохновения"
+        }
+      }
     },
     "n9LJnULKy0ylfi5S": {
-      "name": "Божественный гнев"
+      "name": "Божественная ярость"
     },
     "nIYI0JJ9oP5POekZ": {
       "name": "Улучшенные Благословлённые удары"
     },
+    "oJINosdd6w2qMVk6": {
+      "name": "Надёжный талант",
+      "effects": {
+        "TL3canJkR60dtCxr": {
+          "name": "Надёжный талант"
+        }
+      }
+    },
     "pdWqnFaIaRYG0DcS": {
-      "name": "Сила дикой природы"
+      "name": "Сила дикой природы",
+      "effects": {
+        "SGUFeCEVkl6ul69c": {
+          "name": "Сила дикой природы"
+        }
+      }
     },
     "qY5OeRzdH8z2pmme": {
-      "name": "Фанатичное присутствие"
+      "name": "Фанатичное присутствие",
+      "effects": {
+        "FDkYgSlsiDzkO7ZH": {
+          "name": "Фанатичное присутствие"
+        }
+      }
     },
     "rAQRafdsdzTA3yl8": {
-      "name": "Чудотворец"
+      "name": "Чудотворец",
+      "effects": {
+        "u8RT6Qnjhtg4RkAV": {
+          "name": "Божественный орден: Чудотворец",
+          "description": "<p>Вы изучаете ещё один заговор из списка заклинаний Жреца. Кроме того, ваша мистическая связь с божественным даёт вам бонус к вашим проверкам Интеллекта (Тайная магия или Религия). Бонус равен вашему модификатору Мудрости (минимум +1).</p>"
+        }
+      }
     },
     "rMEjLPBSVUzEu34R": {
       "name": "Контрочарование"
     },
+    "rO8NkVEhsFYmHKXJ": {
+      "name": "Направленный удар"
+    },
     "tXtyXl1oq15Gvy92": {
-      "name": "Колотящие корни"
+      "name": "Колотящее дубьё"
     },
     "txOmc64K0CMxd7Io": {
-      "name": "Ярость богов"
+      "name": "Ярость богов",
+      "activities": {
+        "0vog0Uk8WtfgVM7p": {
+          "name": "Возвращение к жизни"
+        }
+      },
+      "effects": {
+        "mbdp7ueGR6j8t2mo": {
+          "name": "Ярость богов"
+        }
+      }
+    },
+    "uJ8KalmuuqHB1fzE": {
+      "name": "Сияние рассвета"
     },
     "vb0yLWq27sbWEmLi": {
-      "name": "Вдохновляющее перемещение"
+      "name": "Вдохновляющие движения"
     },
     "vrfpAdWA7VPfVQYg": {
       "name": "Острое словцо"
@@ -171,8 +526,30 @@
     "xZsVWJgcjPkrNZLq": {
       "name": "Божественное вмешательство"
     },
+    "xo3uw5c1TXSk6JHK": {
+      "name": "Воплощение битвы",
+      "effects": {
+        "mPsYo9tPxgn0NJEP": {
+          "name": "Воплощение битвы"
+        }
+      }
+    },
+    "xocPQxOuEv0RS8Wl": {
+      "name": "Обманная рокировка"
+    },
+    "y0fN9ywVDNv6oXRZ": {
+      "name": "Совместный танец",
+      "effects": {
+        "fsMtmiTmgAxrUHaV": {
+          "name": "Совместный танец"
+        }
+      }
+    },
     "y5cAI01kFeDPZehc": {
-      "name": "Unarmored Defense (Barbarian)"
+      "name": "Защита без доспехов (Варвар)"
+    },
+    "yjNIZtp7Z3gANl7B": {
+      "name": "Ответный удар"
     }
   }
 }
