@@ -816,8 +816,8 @@
                 "Healing": "Аура живучести: Лечение"
             },
             "AutoGrapple": {
-                "DC": "Flat DC to escape grapple (contested if 0):",
-                "Disadvantage": "Grant disadvantage on escape check:",
+                "DC": "Неизменная Сл высвобождения (состязание при 0):",
+                "Disadvantage": "Накладывать Помеху на высвобождение:",
                 "Name": "Автозахват"
             },
             "AutoPush": {
@@ -964,7 +964,7 @@
                 "Select": "Select Breath Details"
             },
             "BrutalStrike": {
-                "Choose": "Sacrifice advantage to use {item}?"
+                "Choose": "Пожертвовать Преимуществом для использования {item}?"
             },
             "Bulwark": {
                 "Use": "Use Reaction to avoid being moved?"
@@ -1045,12 +1045,12 @@
             },
             "ContextualBonus": {
                 "Advantage": "Даёт преимущество:",
-                "Bonus": "If not advantage, what bonus:",
-                "Checks": "Ability Checks that may receive a bonus:",
-                "Condition": "When to receive bonus:",
-                "Name": "Contextual Bonus",
-                "Saves": "Ability Saves that may receive a bonus:",
-                "Skills": "Skill Checks that may receive a bonus:"
+                "Bonus": "Если не преимущество, то какой бонус:",
+                "Checks": "Проверки характеристик, которые могут получить бонус:",
+                "Condition": "Когда получать бонус:",
+                "Name": "Контекстный бонус",
+                "Saves": "Спасброски, которые могут получить бонус:",
+                "Skills": "Проверки навыков, которые могут получить бонус:"
             },
             "ControlUndead": {
                 "Controlled": "Control Undead: Controlled"
@@ -1189,8 +1189,8 @@
                 "Move": "Dust Devil: Move"
             },
             "EffectImmunity": {
-                "Immune": "Immune",
-                "Name": "Effect Immunity"
+                "Immune": "Иммунитет",
+                "Name": "Иммунитет к эффекту"
             },
             "EldritchBlast": {
                 "Beam": "Мистический заряд: Луч",
@@ -1218,12 +1218,12 @@
                 "Prone": "Опрокинуть цель?"
             },
             "ElementalAdept": {
-                "DowngradeImmunity": "Понизить Иммунитет на Сопротивление",
-                "DowngradeResistanceImmunity": "Понизить Иммунитет на Сопротивление и игнорировать Сопротивление",
+                "DowngradeImmunity": "Изменить Иммунитет на Сопротивление",
+                "DowngradeResistanceImmunity": "Изменить Иммунитет на Сопротивление и игнорировать Сопротивление",
                 "IgnoreImmunity": "Игнорировать Иммунитет",
                 "IgnoreResistance": "Игнорировать Сопротивление",
                 "IgnoreResistanceImmunity": "Игнорировать Сопротивление и Иммунитет",
-                "Mode": "Режим понижения:",
+                "Mode": "Режим изменения:",
                 "SpellOnly": "Только заклинания:"
             },
             "ElementalCleaver": {
@@ -1242,9 +1242,9 @@
                 "ProtectiveTitle": "Protective Bond: Protect Target?"
             },
             "Engulf": {
-                "Grapples": "Initiates grapple",
-                "Grappling": "Grapple Behavior:",
-                "Requires": "Must be grappling already"
+                "Grapples": "Начинает захват",
+                "Grappling": "Поведение захвата:",
+                "Requires": "Цель должна быть в захвате"
             },
             "Enlarge": {
                 "Double": "Удвоить кость оружия вместо бонуса +1d4:",
@@ -1256,7 +1256,7 @@
                 "Select": "Увеличить или уменьшить?"
             },
             "Escape": {
-                "Name": "Escape"
+                "Name": "Высвобождение"
             },
             "ExperimentalElixir": {
                 "Boldness": "Experimental Elixir: Boldness",
@@ -1275,8 +1275,8 @@
                 "Close": "Эта проверка совершается для чего-то в пределах 1 фута"
             },
             "FailedByAmount": {
-                "Amount": "Amount:",
-                "Name": "Failed By Amount"
+                "Amount": "Значение:",
+                "Name": "Провал на значение"
             },
             "Fall": {
                 "Acr": "Да (Акробатика)",
@@ -1441,7 +1441,7 @@
                 "SpellOnly": "Только для заклинаний:"
             },
             "HealingLight": {
-                "Select": "How many dice do you want to use?"
+                "Select": "Сколько костей вы хотите использовать?"
             },
             "HealingSpirit": {
                 "Apply": "Healing Spirit: Apply Healing? ({numUses} use(s) left)",
@@ -1509,15 +1509,15 @@
                 "Select": "Which spell to imbue a card with?"
             },
             "ImprovedDuplicity": {
-                "ChooseHeal": "Choose a target to heal:"
+                "ChooseHeal": "Выберите цель для лечения:"
             },
             "ImprovedPotentSpellcasting": {
                 "Target": "Select an ally to give temporary hit points to:"
             },
             "InfectiousFury": {
-                "Attack": "Attack a Nearby Target",
-                "Curse": "How do you curse your target?",
-                "Damage": "Take Damage"
+                "Attack": "Атаковать ближайшую цель?",
+                "Curse": "Как вы проклинаете цель?",
+                "Damage": "Получить урон"
             },
             "InfernalMajesty": {
                 "SelectTarget": "Select a target to take damage:"
@@ -1597,8 +1597,8 @@
             },
             "Jump": {
                 "LongJump": {
-                    "DifficultTerrain": "Landing in difficult terrain?",
-                    "LowObstacle": "Is there a low obstacle?"
+                    "DifficultTerrain": "Вы приземляетесь на труднопроходимой местности?",
+                    "LowObstacle": "Присутствует ли низкое препятствие?"
                 }
             },
             "KeenSenses": {
@@ -1687,8 +1687,8 @@
                 "Move": "Manifest Mind: Move"
             },
             "MantleOfInspiration": {
-                "Reaction": "Use your reaction to move?",
-                "Targets": "Select up to {maxtargets} targets:"
+                "Reaction": "Переместиться реакцией?",
+                "Targets": "Выберите до {maxtargets} целей:"
             },
             "MartialAdvantage": {
                 "Name": "Воинское преимущество"
@@ -1737,12 +1737,12 @@
                 "Move": "Лунный луч: Переместить"
             },
             "MoonlightStep": {
-                "TeleportFriend": "Teleport a willing ally?"
+                "TeleportFriend": "Телепортировать согласного союзника?"
             },
             "MovementBonusActivity": {
-                "Distance": "Required Distance (ft):",
-                "Name": "Movement Bonus Activity",
-                "ReplaceDamageFormula": "Replace Damage Formula:"
+                "Distance": "Требуемое расстояние (фт):",
+                "Name": "Бонусная функция перемещения",
+                "ReplaceDamageFormula": "Заменить формулу урона:"
             },
             "Mutagencraft": {
                 "AttackSunlight": "Are either {sourceTokenName} or {targetTokenName} in direct sunlight?",
@@ -1864,11 +1864,11 @@
                 "Overtime": "Луч слабости (конец хода)"
             },
             "Reduce": {
-                "AlwaysTiny": "Always reduce to Tiny:",
-                "AttackDisadvantage": "Disadvantage on strength-based attacks:",
-                "Name": "Reduce",
-                "OneDamage": "Strength-based attacks deal 1 weapon damage:",
-                "StealthACBonus": "+5 to Stealth & AC:"
+                "AlwaysTiny": "Всегда уменьшать до Крошечного:",
+                "AttackDisadvantage": "Помеха на основанные на Силе атаки:",
+                "Name": "Уменьшение",
+                "OneDamage": "Основанные на Силе атаки наносят 1 урона оружия:",
+                "StealthACBonus": "+5 к Скрытности и КЗ:"
             },
             "ReduceMaxHP": {
                 "DamageTypeFilter": "Применять только определённые типы урона к понижению максимальных Хитов:",
@@ -1894,8 +1894,8 @@
                 "RestoreAndUse": "Restore and use {name}?"
             },
             "RerollSaveOnDamage": {
-                "ExcludeSource": "Exclude Damage from Source",
-                "Name": "Reroll Save on Damage"
+                "ExcludeSource": "Исключать урон от источника",
+                "Name": "Переброс спасброска при уроне"
             },
             "Retaliation": {
                 "Weapon": "Выберите оружие для атаки:"
@@ -1998,14 +1998,14 @@
                 "Self": "Reduce damage to self?"
             },
             "SpecialItemUse": {
-                "Name": "Special Item Use",
-                "TriggerItems": "Items to Trigger:"
+                "Name": "Использование особого предмета",
+                "TriggerItems": "Предметы:"
             },
             "SpellTurning": {
-                "Advantage": "Advantage on saves:",
-                "Name": "Spell Turning",
-                "SpellLevel": "Maximum spell level for retarget:",
-                "TargetCaster": "Target Caster if succeed:"
+                "Advantage": "Преимущество на спасброски:",
+                "Name": "Отражение заклинаний",
+                "SpellLevel": "Максимальный уровень заклинания:",
+                "TargetCaster": "Выбрать заклинателя при успехе:"
             },
             "SpikeGrowth": {
                 "Thorns": "Поросль шипов: Шипы"
