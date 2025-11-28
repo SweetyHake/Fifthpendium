@@ -74,17 +74,34 @@
         "Combat": {
             "LegendaryActions": {
                 "Prompt": {
+                    "Content": "You have unused legendary actions this turn, use legendary action?",
+                    "Title": "Use Legendary Action?"
                 },
                 "Target": {
+                    "Content": "Select target of ",
+                    "Title": "Select Target"
                 }
             }
         },
         "CommonFeatures": {
+            "Amphibious": "Amphibious",
             "Bite": "Укус",
+            "BreathWeapon": "Breath Weapon",
+            "ChangeShape": "Change Shape",
             "Charge": "Charge",
+            "Claws": "Claws",
+            "DevilsSight": "Devil's Sight",
+            "Evasion": "Evasion",
+            "Flyby": "Flyby",
+            "HeatedBody": "Heated Body",
+            "MagicResistance": "Magic Resistance",
             "Maul": "Maul",
             "Mending": "Mending",
+            "Multiattack": "Multiattack ({numAttacks} Attacks)",
+            "PackTactics": "Pack Tactics",
             "Regeneration": "Регенерация",
+            "ShadowStealth": "Shadow Stealth",
+            "Shapechanger": "Shapechanger",
             "Shred": "Shred",
             "StoneLethargy": "Stone Lethargy",
             "Tail": "Хвост",
@@ -860,6 +877,7 @@
                 "Restrained": "Состояние Опутанный, пока существо в захвате:"
             },
             "AutoPush": {
+                "Name": "Автоматическое отталкивание"
             },
             "AwakenedSpellbook": {
                 "Select": "Change damage type?"
