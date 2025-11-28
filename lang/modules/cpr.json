@@ -74,175 +74,172 @@
         "Combat": {
             "LegendaryActions": {
                 "Prompt": {
-                    "Content": "Вы не использовали легендарные действия на этом ходу, использовать?",
-                    "Title": "Использовать Легендарное действие?"
                 },
                 "Target": {
-                    "Content": "Выберите цель действия ",
-                    "Title": "Выберите цель"
                 }
             }
         },
         "CommonFeatures": {
-            "Amphibious": "Амфибия",
             "Bite": "Укус",
-            "BreathWeapon": "Оружие дыхания",
-            "ChangeShape": "Смена формы",
             "Charge": "Charge",
-            "Claws": "Когти",
-            "DevilsSight": "Дьявольское зрение",
-            "Evasion": "Увёртливость",
-            "Flyby": "Облёт",
-            "HeatedBody": "Нагретое тело",
-            "MagicResistance": "Сопротивление магии",
             "Maul": "Maul",
             "Mending": "Mending",
-            "Multiattack": "Мультиатака ({numAttacks})",
-            "PackTactics": "Тактика стаи",
             "Regeneration": "Регенерация",
-            "ShadowStealth": "Скрытность в тени",
-            "Shapechanger": "Перевёртыш",
             "Shred": "Shred",
             "StoneLethargy": "Stone Lethargy",
             "Tail": "Хвост",
-            "WaterBreathing": "Подводное дыхание",
+            "WaterBreathing": "Water Breathing",
             "WeightOfSorrow": "Weight of Sorrow"
         },
         "Config": {
-            "Abilities": "Характеристика:",
-            "Ability": "Характеристика:",
+            "Abilities": "Ability:",
+            "Ability": "Ability:",
             "Activities": "Функции:",
-            "AffectAllies": "Воздействие на союзников:",
+            "AffectAllies": "Should Affect Allies:",
             "AllowEnemies": "Разрешить выбор не-союзных токенов?",
-            "Animation": "Анимация:",
+            "Animation": "Animation:",
             "Animations": {
-                "Air": "Воздух",
-                "Celestial": "Небожитель",
-                "Complex": "Составная",
-                "Default": "По умолчанию",
-                "Earth": "Земля",
-                "Fiend": "Исчадие",
-                "Fire": "Огонь",
-                "Future": "Будущее",
-                "Lightning": "Электричество",
-                "Nature": "Природа",
-                "None": "Нет",
-                "Saiyan": "Сайян",
-                "Shadow": "Тьма",
-                "Simple": "Простая",
-                "Smoke": "Дым",
-                "Water": "Вода"
+                "Air": "Air",
+                "Celestial": "Celestial",
+                "Complex": "Complex",
+                "Default": "Default",
+                "Earth": "Earth",
+                "Fiend": "Fiend",
+                "Fire": "Fire",
+                "Future": "Future",
+                "Lightning": "Lightning",
+                "Nature": "Nature",
+                "None": "None",
+                "Saiyan": "Saiyan",
+                "Shadow": "Shadow",
+                "Simple": "Simple",
+                "Smoke": "Smoke",
+                "Water": "Water"
             },
-            "ApplyFilter": "Применить фильтр:",
-            "ArmoTypes": "Типы доспеха:",
-            "AttackBonus": "Бонус к атаке:",
-            "AvatarImg": "Изображение аватара:",
-            "AvatarImgPriority": "Приоритет изображений аватара:",
-            "BaseDiceNumber": "Базовое число костей:",
-            "BaseHealing": "Базовое лечение:",
+            "ApplyFilter": "Apply Filter:",
+            "Arangement": "Arangement:",
+            "ArmoTypes": "Armor Types:",
+            "AttackBonus": "Attack Bonus:",
+            "AvatarImg": "Avatar Image:",
+            "AvatarImgPriority": "Avatar Image Priority:",
+            "BaseDiceNumber": "Base Dice Number:",
+            "BaseHealing": "Base Healing:",
             "BlockingStatuses": "Blocking Statuses:",
-            "Character": "Персонаж",
-            "CheckHit": "Проверка попадания:",
-            "CheckSave": "Проверка спасброска:",
-            "CheckSaves": "Проверка спасбросков:",
-            "ClassIdentifier": "Идентификатор класса:",
+            "Character": "Character",
+            "CheckHit": "Check Hit:",
+            "CheckSave": "Check Save:",
+            "CheckSaves": "Check Saves:",
+            "ClassIdentifier": "Идентефикатор класса:",
             "Color": "Цвет:",
             "Colors": {
                 "Blue": "Синий",
                 "Blue02": "Синий (альт.)",
-                "BlueGreen": "Сине-зелёный",
-                "BlueGrey": "Сине-серый",
-                "BlueWhite": "Сине-белый",
-                "BlueYellow": "Сине-жёлтый",
-                "Cycle": "Цикл",
-                "DarkBlack": "Тёмно-чёрный",
+                "BlueGreen": "Синий & Зелёный",
+                "BlueGrey": "Синий & Серый",
+                "BlueOrange": "Синий & Оранжевый",
+                "BluePink": "Синий & Розовый",
+                "BlueWhite": "Синий & Белый",
+                "BlueYellow": "Синий & Желтый",
+                "Cycle": "Cycle",
+                "DarkBlack": "Тёмно-черный",
                 "DarkBlue": "Тёмно-синий",
                 "DarkGreen": "Тёмно-зелёный",
+                "DarkGreenPurple": "Тёмно-зелёный & Фиолетовый",
                 "DarkPink": "Тёмно-розовый",
                 "DarkPurple": "Тёмно-фиолетовый",
+                "DarkPurpleRed": "Тёмно-фиолетовый & Красный",
                 "DarkRed": "Тёмно-красный",
-                "DarkWhiteBlue": "Тёмно-бело-синий",
+                "DarkWhiteBlue": "Тёмно-белый & Синий",
                 "Green": "Зелёный",
                 "Green02": "Зелёный (альт.)",
-                "GreenOrange": "Зелёно-оранжевый",
+                "GreenOrange": "Зелёный & Оранжевый",
+                "GreenYellow": "Зелёный & Желтый",
                 "Grey": "Серый",
                 "LightBlue": "Светло-синий",
-                "LightGreen": "Светло-голубой",
+                "LightGreen": "Светло-зелёный",
                 "Orange": "Оранжевый",
-                "OrangePurple": "Оранжево-фиолетовый",
+                "OrangePurple": "Оранжевый & Фиолетовый",
                 "Pink": "Розовый",
-                "PinkPurple": "Розово-фиолетовый",
+                "PinkPurple": "Розовый & Фиолетовый",
+                "PinkYellow": "Розовый & Желтый",
                 "Purple": "Фиолетовый",
-                "PurpleGreen": "Фиолетово-зелёный",
-                "Rainbow": "Радужный",
+                "PurpleGreen": "Фиолетовый & Зелёный",
+                "Rainbow": "Радуга",
                 "Random": "Случайный",
                 "Red": "Красный",
                 "White": "Белый",
-                "Yellow": "Жёлтый",
-                "YellowBlue": "Жёлто-синий"
+                "Yellow": "Желтый",
+                "YellowBlue": "Желтый & Зелёный"
             },
-            "CombatOnly": "Включать только в бою",
+            "CombatOnly": "Включить только в бою",
             "CompendiumName": "{option} Compendium Name:",
             "Conditions": "Состояния:",
             "CreatureTypes": "Типы существ:",
-            "CriticalOnly": "Только критическое попадание:",
+            "CriticalOnly": "Critical Only:",
             "DC": "Сл:",
-            "DamageBonus": "Бонус к урону:",
-            "DamageScaleIdentifier": "Идентификатор повышения урона:",
+            "DamageBonus": "Бонус урона:",
+            "DamageScaleIdentifier": "Damage Scale Identifier:",
             "DamageType": "Тип урона:",
             "DamageTypes": "Типы урона:",
-            "DarknessAnimation": "Анимация тьмы:",
-            "DiceSize": "Размер кости:",
-            "DisplayFormulaRoll": "Отображать формулу броска:",
-            "DisplayHint": "Отображать подсказку:",
-            "Distance": "Расстояние:",
-            "DurationSeconds": "Длительность (секунды):",
+            "DarknessAnimation": "Darkness Animation:",
+            "DiceSize": "Dice Size:",
+            "DisplayFormulaRoll": "Display Formula Roll:",
+            "DisplayHint": "Display Hint:",
+            "Distance": "Distance:",
+            "DurationSeconds": "Duration (Seconds):",
             "EnablePrompt": "Enable Reaction Prompt:",
             "Expire": "Expiration:",
-            "FailedSave": "Проваленный спасбросок:",
-            "Formula": "Формула:",
-            "HideToken": "Скрыть токен:",
-            "HitPoints": "Хиты:",
-            "HitTarget": "Попадание по цели:",
-            "IgnoredCreatureTypes": "Игнорировать типы существ:",
-            "ImmuneCreatures": "Невосприимчивые типы существ:",
-            "MaxLevel": "Максимальный уровень:",
-            "MaxSize": "Максимальный размер:",
-            "Multiplier": "Множитель:",
-            "Name": "Название:",
+            "FailedSave": "Failed Save:",
+            "Formula": "Formula:",
+            "Grids": "Grids",
+            "HideToken": "Hide Token:",
+            "HitPoints": "Hit Points:",
+            "HitTarget": "Hit Target:",
+            "IgnoredCreatureTypes": "Ignored Creature Types:",
+            "ImmuneCreatures": "Immune Creature Types:",
+            "LineColor": "Line Color:",
+            "MaxLevel": "Max Level:",
+            "MaxSize": "Max Size:",
+            "Multiplier": "Multiplier:",
+            "Name": "Name:",
             "NoDCPrompt": "Prompt on no DC:",
-            "Number": "Число:",
-            "Opacity": "Прозрачность:",
-            "Percentage": "Процент:",
+            "Number": "Number:",
+            "Opacity": "Opacity:",
+            "Percentage": "Percentage:",
             "PlayAnimation": "Проигрывать анимацию:",
             "PlayTeleportAnimation": "Проигрывать анимацию телепортации:",
-            "PlayTokenAnimation": "Проигрывать анимацию токена:",
+            "PlayTokenAnimation": "Play Token Animation:",
             "PromptToUse": "Prompt to use:",
             "Range": "Дистанция:",
-            "RealDarkness": "Использовать настоящую тьму:",
+            "RealDarkness": "Use Real Darkness:",
+            "Rules": "Rules:",
             "SaveAbilities": "Save Abilities:",
-            "SaveDC": "Сл спасброска:",
-            "Saves": "Спасброски:",
-            "Scale": "Повышение:",
-            "ScaleIdentifier": "Идентификатор повышения:",
-            "ShowIcon": "Всегда отображать иконку ауры",
-            "ShowRoll": "Показывать бросок:",
-            "SimultaneousUses": "Одновременное использование:",
-            "Skills": "Навыки:",
-            "Sound": "Звук:",
-            "SpecificAnimation": "{option} анимация:",
-            "SpellSchools": "Школы заклинаний:",
-            "SubclassIdentifier": "Идентификатор подкласса:",
-            "TokenColor": "Цвет токена:",
-            "TokenImg": "Изображение токена:",
-            "TokenImgPriority": "Приоритет изображений токена:",
-            "TokenSound": "Звук токена:",
+            "SaveDC": "Save DC:",
+            "Saves": "Saves:",
+            "Scale": "Scale:",
+            "ScaleIdentifier": "Scale Identifier:",
+            "ShowIcon": "Always Show Aura Icon",
+            "ShowRoll": "Show Roll:",
+            "SimultaneousUses": "Simultaneous Uses:",
+            "SizeLimit": "Size Limit:",
+            "Skills": "Skills:",
+            "Sound": "Sound:",
+            "SpecificAnimation": "{option} Animation:",
+            "SpellSchools": "Spell Schools:",
+            "StrandColor": "Strand Color:",
+            "SubclassIdentifier": "Subclass Identifier:",
+            "SummonerOnly": "Summoner Only:",
+            "TintMap": "Tint Map:",
+            "TokenColor": "Token Color:",
+            "TokenImg": "Token Image:",
+            "TokenImgPriority": "Token Image Priority:",
+            "TokenSound": "Token Sound:",
             "Trigger": "Trigger:",
             "TurnTrigger": "Turn Trigger:",
-            "UseFormula": "Использовать формулу:",
-            "WeaponProperties": "Свойства оружия:",
-            "WeaponType": "Тип оружия",
-            "cameraZoom": "Приближение камеры:"
+            "UseFormula": "Use Formula:",
+            "WeaponProperties": "Weapon Properties:",
+            "WeaponType": "Weapon Type",
+            "cameraZoom": "Camera Zoom:"
         },
         "Cover": {
             "Full": "Полное укрытие",
@@ -258,6 +255,10 @@
         "CustomTypes": {
             "SpellFeature": "Spell Feature"
         },
+        "DeckOfIllusions": {
+            "CardsAvailable": "Cards Available:",
+            "UnableToPickACard": "Unable to pick a valid card!"
+        },
         "Dialog": {
             "DamageType": "Какой тип урона?",
             "HitDieLabel": "{className} ({denomination}) - {remaining}/{max}",
@@ -268,6 +269,7 @@
             "UseAttack": "Использовать {itemName}? (Значение атаки: {attackTotal})",
             "UseAttackDetail": "Использовать {itemName} для дополнительного {bonusFormula}? (Значение атаки: {attackTotal})",
             "UseExtraCost": "Использовать {itemName}? (Стоимость: {quantity} {quantityName})",
+            "UseFor": "Use {item} for {name}?",
             "UseName": "Использовать {itemName} [{tokenName}]?",
             "UseOn": "Использовать {itemName} на {tokenName}?",
             "UseRollTotal": "Use {itemName}? (Roll Total: {rollTotal})",
@@ -313,7 +315,7 @@
         },
         "EmbeddedMacros": {
             "Conscious": {
-                "Label": "В сознании:"
+                "Label": "Conscious:"
             },
             "Disposition": {
                 "All": {
@@ -359,6 +361,9 @@
                 },
                 "actorUnequipped": {
                     "Label": "Actor Unequipped"
+                },
+                "actorUpdated": {
+                    "Label": "Actor Updated"
                 },
                 "applyDamage": {
                     "Label": "Apply Damage"
@@ -420,6 +425,12 @@
                 "postAttackRoll": {
                     "Label": "Post-Attack Roll"
                 },
+                "postEvaluation": {
+                    "Label": "Post-Evaluation"
+                },
+                "preEvaluation": {
+                    "Label": "Pre-Evaluation"
+                },
                 "preItemRoll": {
                     "Label": "Pre-Item Roll"
                 },
@@ -456,6 +467,12 @@
                 "scenePostAttackRoll": {
                     "Label": "Scene Post-Attack Roll"
                 },
+                "scenePostEvaluation": {
+                    "Label": "Scene Post-Evaluation"
+                },
+                "scenePreEvaluation": {
+                    "Label": "Scene Pre-Evaluation"
+                },
                 "scenePreambleComplete": {
                     "Label": "Scene Preamble Complete"
                 },
@@ -464,6 +481,9 @@
                 },
                 "sceneSituational": {
                     "Label": "Scene Situational"
+                },
+                "sceneUtilityRollComplete": {
+                    "Label": "Scene Utility Roll Complete"
                 },
                 "short": {
                     "Label": "Short Rest"
@@ -498,6 +518,9 @@
                 "targetSituational": {
                     "Label": "Target Situational"
                 },
+                "targetUtilityRollComplete": {
+                    "Label": "Target Utility Roll Complete"
+                },
                 "turnEnd": {
                     "Label": "Turn End"
                 },
@@ -518,6 +541,12 @@
                 },
                 "unequipped": {
                     "Label": "Unequipped"
+                },
+                "updated": {
+                    "Label": "Updated"
+                },
+                "utilityRollComplete": {
+                    "Label": "Utility Roll Complete"
                 }
             },
             "Priority": {
@@ -531,21 +560,22 @@
             },
             "Type": {
                 "Label": "Type:",
-                "aura": "Aura",
-                "check": "Check",
-                "combat": "Combat",
-                "death": "Death",
-                "effect": "Effect",
-                "item": "Item",
+                "aura": "Аура",
+                "check": "Проверка",
+                "combat": "Бой",
+                "d20": "D20",
+                "death": "Смерть",
+                "effect": "Эффект",
+                "item": "Предмет",
                 "midi-actor": "Midi-Qol Actor",
                 "midi-item": "Midi-Qol Item",
                 "movement": "Movement",
-                "region": "Region",
-                "rest": "Rest",
-                "save": "Save",
-                "skill": "Skill",
-                "template": "Template",
-                "toolCheck": "Tool"
+                "region": "Область",
+                "rest": "отдых",
+                "save": "Спас",
+                "skill": "Навык",
+                "template": "Шаблон",
+                "toolCheck": "Инструмент"
             }
         },
         "Error": {
@@ -598,62 +628,65 @@
         },
         "Generic": {
             "Actions": "Действия",
-            "Amount": "Число:",
+            "Amount": "Кол-во:",
             "Automatic": "Автоматически",
             "Available": "Доступно",
             "CPR": "Cauldron of Plentiful Resources",
             "Cancel": "Отмена",
             "Chat": "Чат",
             "Check": "Проверка характеристики",
-            "CheckSpelling": "Проверка произношения",
+            "CheckSpelling": "Check Spelling",
             "ChooseASpell": "Выберите заклинание:",
+            "Circle": "Круг",
             "Close": "Закрыть",
             "ConditionResistance": {
-                "Description": "Сопротивление состоянию {condition}, спасбросок с Преимуществом. 1/true для всех спасбросков или список характеристик через запятую (например str,dex).",
-                "Name": "Сопротивление состоянию {condition}"
+                "Description": "Condition Resistance to {condition}, roll at advantage to save. 1/true for all saves, or a comma-separated list of abilities (e.g. str,dex).",
+                "Name": "{condition} Condition Resistance"
             },
             "ConditionVulnerability": {
-                "Description": "Уязвимость к состоянию {condition}, спасбросок с Помехой. 1/true для всех спасбросков или список характеристик через запятую (например str,dex).",
-                "Name": "Уязвимость к состоянию {condition}"
+                "Description": "Condition Vulnerability to {condition}, roll at disadvantage to save. 1/true for all saves, or a comma-separated list of abilities (e.g. str,dex).",
+                "Name": "{condition} Condition Vulnerability"
             },
             "Configure": "Настроить",
             "ConsumeItemToUse": "Потратить использование {item}?",
             "ConsumeSpellSlotToUse": "Потратить ячейку заклинаний?",
-            "DiceOnly": "Результат броска",
+            "DiceOnly": "Die Result",
             "Disabled": "Отключено",
             "Distance": "Дистанция",
             "Edit": "Редактировать",
-            "Failure": "Провал",
-            "Features": "Особенности",
+            "Failure": "Failure",
+            "Features": "Features",
             "Go": "Go",
             "Import": "Импорт",
-            "Items": "Предметы",
+            "Items": "Items",
+            "Length": "Length",
             "Max": "Максимум:",
             "MeleeSpells": "Рукопашные заклинания",
             "MeleeWeapons": "Рукопашные оружия",
             "MissingScale": "Actor does not have {scaleName} scale set!",
-            "Never": "Никогда",
+            "Never": "Never",
             "No": "Нет",
-            "NoEffect": "Предмет {itemName} должен обладать эффектом для универсальной особенности монстра!",
+            "NoEffect": "{itemName} must have an effect for its generic monster feature!",
             "NoMoreResource": "Недостаточно требуемого ресурса!",
             "NoType": "Без типа",
             "None": "Нет",
             "Ok": "Хорошо",
             "Prompt": "Prompt",
-            "ProtectWithItem": "Защитить персонажа {token} предметом {item}?",
-            "Range": "Дистанция",
+            "ProtectWithItem": "Protect {token} with {item}?",
+            "Range": "Дальность",
             "RangedSpells": "Дальнобойные заклинания",
             "RangedWeapons": "Дальнобойные оружия",
             "Recharge": "Перезарядка:",
             "RecoverSpellSlot": "Выберите ячейку заклинания для восстановления:",
             "Replace": "Заменить",
-            "Rerolling": "Переброс {origDie} ({origResult}):",
-            "Select": "Выбор",
-            "SelectASkill": "Выберите навык:",
-            "SelectATarget": "Выберите цель:",
-            "SelectAWeapon": "Выберите оружие:",
-            "SelectAnActivity": "Выберите функцию:",
-            "SelectAnItem": "Выберите предмет:",
+            "Rerolling": "Rerolling {origDie} ({origResult}):",
+            "Select": "Выберите",
+            "SelectAProficency": "Select A Proficency:",
+            "SelectASkill": "Select a skill:",
+            "SelectATarget": "Select a target:",
+            "SelectAWeapon": "Select a weapon:",
+            "SelectAnActivity": "Select and activity:",
+            "SelectAnItem": "Select an item:",
             "SelectDamageType": "Выберите тип урона:",
             "SelectEffect": "Выберите эффект:",
             "SelectSpell": "Выберите заклинание:",
@@ -662,32 +695,34 @@
             "Skill": "Проверка навыка",
             "Source": "Источник",
             "Spells": "Заклинания",
+            "Star": "Star",
             "Submit": "Подтвердить",
             "Success": "Успех",
             "Summon": "Призыв",
-            "Target": "Выбор цели",
-            "Total": "Общий результат",
+            "Target": "Select Target",
+            "Total": "Total",
             "TurnEnd": "Конец хода",
             "TurnStart": "Начало хода",
-            "Uncontested": "Без состязания",
+            "Uncontested": "Uncontested",
             "Update": "Обновить",
             "UseItem": "Использовать {item}?",
+            "Width": "Ширина",
             "Yes": "Да",
             "You": "Вы"
         },
         "GenericEffects": {
-            "ConditionAdvantage": "Преимущество на состояние",
-            "ConditionDisadvantage": "Помеха на состояние",
-            "ConditionFailure": "Провал состояния",
-            "ConditionImmunity": "Иммунитет к состоянию",
-            "CriticalThreshold": "Порог критического попадания",
-            "InvalidTarget": "Некорректная цель",
-            "TemplateEffect": "Шаблон предмета {itemName}"
+            "ConditionAdvantage": "Condition Advantage",
+            "ConditionDisadvantage": "Condition Disadvantage",
+            "ConditionFailure": "Condition Failure",
+            "ConditionImmunity": "Condition Immunity",
+            "CriticalThreshold": "Critical Threshold",
+            "InvalidTarget": "Invalid Target",
+            "TemplateEffect": "{itemName} Template"
         },
         "Grovelthrash": {
-            "Earthquake": "Землетрясение (Ползучий молотильщик)",
-            "MeldIntoStone": "Слияние с камнем (Ползучий молотильщик)",
-            "StoneShape": "Изменение формы камня (Ползучий молотильщик)"
+            "Earthquake": "Earthquake (Grovelthrash)",
+            "MeldIntoStone": "Meld into Stone (Grovelthrash)",
+            "StoneShape": "Stone Shape (Grovelthrash)"
         },
         "HeaderButtons": {
             "PackId": {
@@ -720,12 +755,12 @@
         },
         "Macros": {
             "AberrantDragonmark": {
-                "ConfigId": "ID связанного заклинания",
-                "Damage": "Искажённая метка дракона: Урон",
-                "Expend": "Потратить кость хитов?",
-                "Healing": "Искажённая метка дракона: Лечение",
-                "NoValid": "Не найдено подходящих заклинаний!",
-                "Select": "Выберите связанное заклинание для этого умения:"
+                "ConfigId": "Associated Spell ID",
+                "Damage": "Aberrant Dragonmark: Damage",
+                "Expend": "Expend a hit die?",
+                "Healing": "Aberrant Dragonmark: Healing",
+                "NoValid": "No valid spells found!",
+                "Select": "Select the associated spell for this feature:"
             },
             "AbilityDrain": {
                 "Name": "Высасывание характеристики"
@@ -735,10 +770,10 @@
                 "Disengage": "Отход",
                 "Dodge": "Уклонение",
                 "Grapple": "Захват",
-                "GrappleEscape": "Захват: Высвобождение",
-                "GrappleEscapeSelect": "Попытаться высвободиться из захвата?",
-                "GrappledBy": "Схвачен персонажем {tokenName}",
-                "Grappling": "Держит в захвате персонажа {tokenName}",
+                "GrappleEscape": "Захват: Освободиться",
+                "GrappleEscapeSelect": "Попытаться освободиться из захвата?",
+                "GrappledBy": "Схвачен {tokenName}",
+                "Grappling": "Держит в захвате {tokenName}",
                 "Help": "Помощь"
             },
             "ActivityOnEffectExpiry": {
@@ -757,7 +792,7 @@
             "AdvantageDamageBonus": {
                 "Bonus": "Бонусный урон, если атака совершена с преимуществом:",
                 "Name": "Бонус урона при преимуществе",
-                "Replace": "Заменить формулу урона:"
+                "Replace": "Replace Damage Formula:"
             },
             "AllPurposeTool": {
                 "Channel": "All-Purpose Tool: Channel Creative Forces",
@@ -769,7 +804,7 @@
                 "Target": "Ancestral Protectors: Target"
             },
             "AnimateDead": {
-                "Command": "Поднятие мертвеца: Команда"
+                "Command": "Animate Dead: Command"
             },
             "AnimatingPerformance": {
                 "Command": "Animating Performance: Command",
@@ -796,32 +831,35 @@
                 "Choose": "Выберите кость хитов:"
             },
             "ArcaneWard": {
-                "Protect": "Защитить персонажа {tokenName} вашим волшебным щитом?"
+                "Protect": "Protect {tokenName} with your arcane ward?"
             },
             "ArmorOfAgathys": {
-                "Reflect": "Доспех Агатиса: Отражение урона"
+                "Reflect": "Доспех Агатиса: Отражение"
             },
             "AstralTrance": {
                 "Ability": "What ability for the tool checks?",
                 "WeapToolProf": "Weapon/Tool Proficiency",
                 "Which": "Select proficiencies:"
             },
+            "Attack": {
+                "SelectWeapon": "Выберите оружие или Безоружный удар:"
+            },
             "AuraDamage": {
-                "Name": "Наносящая урон аура"
+                "Name": "Damaging Aura"
             },
             "AuraOfLife": {
-                "RemoveTempmax": "Временно отключить понижение максимальных хитов в ауре:"
+                "RemoveTempmax": "Temporarily remove existing hp max reduction while in aura:"
             },
             "AuraOfVitality": {
-                "Healing": "Аура живучести: Лечение"
+                "Healing": "Aura of Vitality: Healing"
             },
             "AutoGrapple": {
-                "DC": "Неизменная Сл высвобождения (состязание при 0):",
-                "Disadvantage": "Накладывать Помеху на высвобождение:",
-                "Name": "Автозахват"
+                "DC": "Сл для освобождения (0 для состязания):",
+                "Disadvantage": "Помеха на освобождение:",
+                "Name": "Автоматический захват",
+                "Restrained": "Состояние Опутанный, пока существо в захвате:"
             },
             "AutoPush": {
-                "Name": "Автотолчок"
             },
             "AwakenedSpellbook": {
                 "Select": "Change damage type?"
@@ -1003,24 +1041,54 @@
                 "BounceFeature": "Chaos Bolt: Bounce",
                 "Select": "Select damage type:"
             },
+            "CharlatansDie": {
+                "Use": "What do you roll?"
+            },
             "CheckCover": {
                 "TargetCover": "Укрытие цели:",
                 "YourCover": "Ваше укрытие:"
             },
             "ChillTouch": {
-                "Undead": "Леденящее прикосновение: Дебафф нежити"
             },
             "ChromaticOrb": {
-                "BaseMaxJumps": "Базовое число максимальных отскоков:",
+                "BaseMaxJumps": "Максимум отскоков:",
                 "Bounce": "В кого должно отскочить заклинание?",
-                "TargetDamageSelection": "Выбор урона за цель:"
+                "TargetDamageSelection": "Per Target Damage Selection:"
+            },
+            "CircleCast": {
+                "AbjColor": "Цвет Ограждения:",
+                "Circle": "(Круговое заклинание)",
+                "ConColor": "Цвет Вызова:",
+                "Concentration": "Вы уже концентрируетесь, и не можете участвовать в этом круговом заклинании.",
+                "DivColor": "Цвет Прорицания:",
+                "EncColor": "Цвет Очарования:",
+                "EvoColor": "Цвет Вызова:",
+                "IllColor": "Цвет Иллюзии:",
+                "MoreParticipants": "Требуется больше участников, перед тем как вы сможете сделать это!",
+                "NecColor": "Цвет Некромантии:",
+                "NoSpellSlots": "У вас нет ячейки необходимого уровня для участия в этом круговом заклинании.",
+                "NotParticipant": "Вы не учавствуете в этом круговом заклинании!",
+                "Safeguard": {
+                    "Message": "Установить безопасные области от Заграждения. ПКМ, чтобы закончить заранее."
+                },
+                "SelectType": "Выберите вариант:",
+                "TrsColor": "Цвет Преобразования:"
             },
             "CircleOfTheLandSpells": {
-                "Arid": "Засушливая местность",
-                "ChooseLand": "Какая местность?",
-                "Polar": "Полярная местность",
-                "Temperate": "Умеренная местность",
-                "Tropical": "Тропическая местность"
+                "Arid": "Засушливая земля",
+                "ChooseLand": "Выберите Тип земли:",
+                "Polar": "Полярная земля",
+                "Temperate": "Умеренная земля",
+                "Tropical": "Тропическая земля"
+            },
+            "CircleSpell": {
+                "Augment": "Дополнение",
+                "Distribute": "Распределение",
+                "Expand": "Расширение",
+                "Prolong": "Продление",
+                "Safeguard": "Заграждение",
+                "Supplant": "Снабжение",
+                "WidthOrLength": "Увеличить длину или ширину?"
             },
             "CloudRune": {
                 "Reaction": "Use {item} to redirect the attack from {name}?"
@@ -1035,13 +1103,16 @@
                 "Flee": "Беги",
                 "Grovel": "Падай",
                 "Halt": "Замри",
-                "YouMust": "Вам приказано: "
+                "YouMust": "You must: "
             },
             "CompelledDuel": {
                 "EndEffect": "Заклинатель закончил свой ход более чем в 30 футах от своей цели. Снять эффект?",
                 "Moved": "Вызов на дуэль: Передвинулся",
                 "Source": "Вызов на дуэль: Источник",
                 "Target": "Вызов на дуэль: Цель"
+            },
+            "ConjureAnimals": {
+                "Save": "Conjure Animals: Save"
             },
             "ContextualBonus": {
                 "Advantage": "Даёт преимущество:",
@@ -1089,7 +1160,7 @@
             },
             "CunningStrike": {
                 "Use": "Использовать хитрый удар?",
-                "UseAnother": "Использовать ещё один хитрый удар?"
+                "UseAnother": "Использовать еще один хитрый удар?"
             },
             "CuttingWords": {
                 "AbilityCheck": "Должен ли {name} использовать {item}, чтобы уменьшить значение на успешном броске (Значение: {total})?",
@@ -1135,7 +1206,39 @@
                 "DanceVirtuoso": "Эта проверка полагается на ваш танец."
             },
             "DeathBurst": {
-                "Name": "Предсмертный взрыв"
+                "Name": "Death Burst"
+            },
+            "DeckOfMiscellany": {
+                "AllowCreation": "Allow Card Creation:",
+                "Burlap": "Burlap",
+                "Card": "Miscellany Card",
+                "Convert": "Convert into a card?",
+                "Gold": "of Gold",
+                "Leather": "Leather",
+                "Silk": "Silk",
+                "Wooden": "Wooden"
+            },
+            "DeckOfWonder": {
+                "DysteryDrawn": "Mystery Drawn:",
+                "Gemstone": "Gemstone",
+                "Jewlery": "Jewlery",
+                "Knife": "Select a weapon:",
+                "Mischief": {
+                    "Cards": "Draw Cards",
+                    "Choose": "Draw two more cards or get a uncommon wondrous item?",
+                    "Item": "Magic Item",
+                    "Select": "Select a wondrous item:"
+                },
+                "SelectACard": "Select a card:",
+                "SelectCard": "Select Card:",
+                "Size": "Deck Size:",
+                "UseJustice": "Prevent advantage and disadvantage?",
+                "UseJusticeFor": "Prevent advantage and disadvantage for {name}?",
+                "Vulture": {
+                    "Found": "Was the item found?",
+                    "Lost": "{} (Lost)",
+                    "Select": "Select an item to lose:"
+                }
             },
             "DetectThoughts": {
                 "ProbeDeeper": "Обнаружение мыслей: Проникнуть глубже"
@@ -1281,16 +1384,16 @@
             "Fall": {
                 "Acr": "Да (Акробатика)",
                 "Ath": "Да (Атлетика)",
-                "Creature": "На другое существо",
+                "Creature": "Падение на другое существо",
                 "Distance": "Расстояние (фт):",
-                "Ground": "На землю",
-                "Reaction": "Использовать Реакцию, чтобы приземлиться на ноги или голову?",
-                "Save": "Спасбросок Ловкости (Сл: 15)",
-                "SkillCheck": "Проверка навыка (Сл: 15)",
-                "Target": "Выберите одну цель и попробуйте ещё раз!",
-                "Tiny": "Одно или оба существа Крошечного размера!",
+                "Ground": "Падение на землю",
+                "Reaction": "Использовать Реакцию, чтобы приземлиться на голову или ноги?",
+                "Save": "Спасбросок Ловкости (Сл 15)",
+                "SkillCheck": "Проверка навыка (Сл 15)",
+                "Target": "Выберите одну цель и попробуйте снова!",
+                "Tiny": "Одно или оба существа Крошечные!",
                 "Type": "Тип падения:",
-                "Water": "В воду"
+                "Water": "Падение в воду"
             },
             "FallenPuppet": {
                 "NoTargets": "No valid targets within range!"
@@ -1363,6 +1466,9 @@
             "FocusedAim": {
                 "Bonus": "Yes ({kiCost} Ki / +{bonus} to hit)"
             },
+            "ForestGuard": {
+                "NoShrub": "No shrubs are nearby the target!"
+            },
             "ForkedTongue": {
                 "SelectLanguages": "Select your known languages:"
             },
@@ -1377,8 +1483,15 @@
                 "AvertSelect": "Avert your eyes from the {tokenName}?",
                 "Name": "Gaze"
             },
+            "GenericActions": {
+                "Legacy": "Legacy",
+                "Modern": "Modern",
+                "Name": "Generic Actions",
+                "Select": "Select a generic action:",
+                "System": "System"
+            },
             "GenericTeleport": {
-                "Name": "Телепортация"
+                "Name": "Телепорт"
             },
             "Grapple": {
                 "ChooseSkill": "С помощью какой характеристики вы хотите сопротивляться захвату?",
@@ -1434,7 +1547,23 @@
                 "PushOnMove": "Отталкивать цели после \"Move\":"
             },
             "HailOfThorns": {
-                "Burst": "Град шипов: Урон"
+                "Burst": "Hail of Thorns: Burst"
+            },
+            "HarkonsBite": {
+                "HybridAnimation": "Hybrid Form Animation:",
+                "HybridAvatarImg": "Hybrid Form Avatar Image:",
+                "HybridAvatarImgPriority": "Hybrid Form Avatar Image Priority:",
+                "HybridTokenImg": "Hybrid Form Token Image:",
+                "HybridTokenImgPriority": "Hybrid Form Token Image Priority:",
+                "Keen": "This check relies on hearing or smell.",
+                "MoonColor": "Red Moon:",
+                "MoonFrenzy": "Moon Frenzy",
+                "Shapechange": "Shapechange",
+                "WolfAnimation": "Wolf Form Animation:",
+                "WolfAvatarImg": "Wolf Form Avatar Image:",
+                "WolfAvatarImgPriority": "Wolf Form Avatar Image Priority:",
+                "WolfTokenImg": "Wolf Form Token Image:",
+                "WolfTokenImgPriority": "Wolf Form Token Image Priority:"
             },
             "Healer": {
                 "SelectHitDie": "Выберите Кость хитов для броска.",
@@ -1474,7 +1603,7 @@
                 "Name": "Hidden Paths"
             },
             "HoldPerson": {
-                "Overtime": "Удержание личности (конец хода)"
+                "Overtime": "Удержание личности (Конец хода)"
             },
             "HolyNimbus": {
                 "Damage": "Святой нимб: Урон",
@@ -1525,6 +1654,17 @@
             "InfiltratorArmor": {
                 "ExtraDamage": "Apply extra 1d6 lightning damage?",
                 "LightningLauncher": "Infiltrator Armor: Lightning Launcher"
+            },
+            "Influence": {
+                "Attitude": "Какое отношение монстра к вам?",
+                "Friendly": "Дружелюбное",
+                "Hesitant": "Сомнительное",
+                "Hostile": "Враждебное",
+                "HowWilling": "Желанно ли ваше влияние для монстра?",
+                "Indifferent": "Безразличное",
+                "Skill": "Какой навык использовать, чтобы повлиять на монстра?",
+                "Unwilling": "Неприемлемое",
+                "Willing": "Желанное"
             },
             "InfuseItem": {
                 "AlreadyServant": "You already have a Homunculus Servant active!",
@@ -1732,6 +1872,9 @@
             "MistyStep": {
                 "Name": "Туманный шаг"
             },
+            "MistyWanderer": {
+                "TeleportFriend": "Teleport a willing ally?"
+            },
             "Moonbeam": {
                 "Damage": "Лунный луч: Урон",
                 "Move": "Лунный луч: Переместить"
@@ -1767,7 +1910,10 @@
                 "DamageItem": "Overchannel: Damage"
             },
             "PackTactics": {
-                "Name": "Тактика стаи"
+                "Name": "Pack Tactics"
+            },
+            "PactOfTheChain": {
+                "Attack": "Attack with:"
             },
             "PariahsShield": {
                 "MaxBonus": "Max AC Bonus:",
@@ -1802,10 +1948,10 @@
                 "RamProne": "Опрокинуть цель?"
             },
             "PowerWordHeal": {
-                "Prone": "Использовать реакцию, чтобы подняться?"
+                "Prone": "Использовать Реакцию, чтобы подняться?"
             },
             "PreserveLife": {
-                "Select": "Распределите хиты (Хитов на распределение: {maxAmount}. Цели не могут быть исцелены выше половины максимума хитов.)"
+                "Select": "Распределите Хиты (Хитов на распределение: {maxAmount}. Цели не могут быть исцелены выше половины максимума Хитов.)"
             },
             "PrimalCompanion": {
                 "BeastsStrike": "Удар Зверя",
@@ -1904,17 +2050,23 @@
                 "Select": "Выберите получаемые преимущества:"
             },
             "RingOfSpellStoring": {
-                "Clear": "Удалить использованные заклинания",
-                "Cleared": "Использованные заклинания удалены из инвентаря!",
-                "Name": "Кольцо хранения заклинаний ({currSpellSlots}/{maxSpellSlots})",
-                "NoSpells": "Нет доступных для хранения заклинаний!",
-                "Reset": "Сбросить сохранённые заклинания",
-                "ResetDone": "Кольцо сброшено!",
-                "SelectSpell": "Какое заклинание вы хотите сохранить?",
-                "SpellName": "Кольцо хранения заклинаний: {spellName}",
-                "Store": "Сохранить заклинание",
-                "Stored": "Заклинание {spellName} сохранено!",
-                "Upcast": "На каком уровне сотворить?"
+                "Clear": "Clear used spells",
+                "Cleared": "Used spells cleared from inventory!",
+                "Name": "Ring of Spell Storing ({currSpellSlots}/{maxSpellSlots})",
+                "NoSpells": "No spells available to store!",
+                "Reset": "Revert stored spells",
+                "ResetDone": "Ring reset!",
+                "SelectSpell": "Which spell would you like to store?",
+                "SpellName": "Ring of Spell Storing: {spellName}",
+                "Store": "Store a spell",
+                "Stored": "{spellName} stored!",
+                "Upcast": "Cast at what level?"
+            },
+            "RobeOfUsefulItems": {
+                "AllowPatching": "Allow new patches:",
+                "Bag": "Bag of Gold",
+                "Convert": "Convert into a patch?",
+                "Patch": "Patch:"
             },
             "RollForActivity": {
                 "Error": "No activity including '{total}' found in {name}",
@@ -2319,6 +2471,9 @@
                 "Heal": "Grant {formula} temporary HP",
                 "Temp": "Twilight Sanctuary: Temporary HP"
             },
+            "UnarguableWizardry": {
+                "Prompt": "This check is to convince others that you are, in fact, a wizard."
+            },
             "UnarmedFighting": {
                 "Grapple": "Сражение без оружия: Урон захвата",
                 "Select": "Какому схваченному существу нанести урон?"
@@ -2442,6 +2597,7 @@
             "Critical": "Critical",
             "Failure": "Failure",
             "Fumble": "Fumble",
+            "FunctionError": "Nested recursive rolls are not supported. Please do something else.",
             "HasModifers": "Roll has modifiers",
             "Hit": "Hit",
             "Miss": "Miss",
@@ -2450,6 +2606,7 @@
                 "Label": "Quick Buttons",
                 "Tooltip": "Shortcuts to complete the roll with the desired result"
             },
+            "ResolveError": "No result found for term, please go to the CPR discord server to report this.",
             "Success": "Success"
         },
         "Mastery": {
@@ -2613,7 +2770,7 @@
             },
             "Medkit": "CPR Medkit",
             "ModuleIds": {
-                "additionalCompendiums": "Additional Compendiums",
+                "additionalCompendiums": "Дополнительные библиотеки",
                 "automated-crafted-creations": "Automated Crafted Creations",
                 "chris-premades": "Cauldron of Plentiful Resources",
                 "gambits-premades": "Gambit's Premades",
@@ -2650,6 +2807,7 @@
                     "AutomationInfo": "Configure Automation Info:",
                     "Check": "Check:",
                     "Combat": "Combat:",
+                    "D20": "D20:",
                     "Death": "Death:",
                     "Equipment": "Equipment:",
                     "HasAnimation": "Has Animation:",
@@ -2789,12 +2947,18 @@
         },
         "Settings": {
             "Permissions": {
-                "1": "Player",
-                "2": "Trusted Player",
-                "3": "Assistant Gamemaster",
-                "4": "Gamemaster"
+                "1": "Игрок",
+                "2": "Доверенный игрок",
+                "3": "Ассистент ведущего",
+                "4": "Ведущий"
             },
-            "SelectCompendium": "Select a compendium:",
+            "SelectCompendium": "Выберите библиотеку:",
+            "actionMode": {
+                "0": "Множество предметов",
+                "1": "Один предмет",
+                "Hint": "Должны ли Действия добавиться как один предмет, или как несколько?",
+                "Name": "Режим добавления Действий"
+            },
             "activityCSSTweak": {
                 "Hint": "When enabled, activities will have all their information one tab. Reload required after disabling.",
                 "Name": "Activities CSS Tweak"
@@ -2814,8 +2978,8 @@
                 "Name": "Добавлять действия токенам"
             },
             "addCompendiumButton": {
-                "Hint": "When enabled, a button will be added to compendium headers to copy the id.",
-                "Name": "Compendium ID Button"
+                "Hint": "Если включено, то отображает кнопку в заголовке библиотеки, позволяющая скопировать её UUID.",
+                "Name": "Кнопка ID Библиотеки"
             },
             "additionalCompendiums": {
                 "Hint": "Выберите дополнительные библиотеки, которые будут использоваться medkit для поиска автоматизаций.",
@@ -2838,8 +3002,8 @@
                 "Name": "Частота резервных копий"
             },
             "backupMake": {
-                "Hint": "Make a backup right now using the specified compendium.",
-                "Name": "Make A Backup"
+                "Hint": "Сделать резервную копию прямо сейчас, используя указанные библиотеки.",
+                "Name": "Сделать резервную копию"
             },
             "backupRetention": {
                 "Hint": "How long backup characters are kept.",
@@ -2869,6 +3033,10 @@
                 "Hint": "Модуль будет проверять наличие обновлений один раз в день, когда Ведущий заходит в мир.",
                 "Name": "Проверять обновления"
             },
+            "circleCast": {
+                "Hint": "Включить механику Кругового заклинательства из Forgotten Realms: Heroes of Faerûn.",
+                "Name": "Круговое заклинательство"
+            },
             "classSpellList": {
                 "Hint": "Journal with all class spell lists configured.",
                 "Name": "Class Spell List Journal"
@@ -2891,6 +3059,10 @@
                 "Hint": "Enables condition resistance and vulnerability automation.",
                 "Name": "Condition Resistance and Vulnerability"
             },
+            "convenientEffects": {
+                "Hint": "When enabled, Convenient Effects will be automatically disabled on items from CPR, GPS, MISC, and ACC.",
+                "Name": "Convenient Effects: Auto Disable"
+            },
             "criticalCompendium": {
                 "Hint": "Select your Critical Compendium.",
                 "Name": "Critical Compendium"
@@ -2906,8 +3078,8 @@
                 "Name": "Critical And Fumble Mode"
             },
             "customChatMessage": {
-                "Hint": "Gives a dark theme to the chat messages.",
-                "Name": "Chat Message Dark Mode"
+                "Hint": "Добавляет тёмную тему для сообщений в чате.",
+                "Name": "Тёмная тема для чата"
             },
             "customSidebar": {
                 "Hint": "CSS tweaks to the sidebar including chat background and scrollbar flipping and other minor changes.",
@@ -2962,8 +3134,8 @@
                 "Name": "Enable Effect Interface"
             },
             "enableAnimations": {
-                "Hint": "When enabled, certain automations will have custom animations. Requires Sequencer and JB2A.",
-                "Name": "Enable CPR Animations"
+                "Hint": "Если включено, то некоторые автоматизации будут иметь встроенные анимации. Требуется Sequencer и JB2A.",
+                "Name": "Включить анимации CPR"
             },
             "enableEmbeddedMacrosEditing": {
                 "Hint": "When enabled, the embedded macros editor will be available. (Not ready for use!)",
@@ -2980,6 +3152,10 @@
             "exportForSharing": {
                 "Hint": "When enabled, an alternative export button will be added to the item and actor context menu to export an item with descriptions removed. Reload required after enabling.",
                 "Name": "Export For Sharing"
+            },
+            "featCompendium": {
+                "Hint": "Feat compendium used for certain automations. Ideally should point to your D&D Beyond feat compendium.",
+                "Name": "Feat Compendium"
             },
             "firearmSupport": {
                 "Hint": "When enabled, Firearms automation will be available (From Critical Role's Gunslinger class).",
@@ -3010,12 +3186,12 @@
                 "Name": "Hidden Compendium Folders"
             },
             "hiddenCompendiums": {
-                "Hint": "Selected compendiums will be hidden.",
-                "Name": "Hidden Compendiums"
+                "Hint": "Выбранные библиотеки будут скрыты.",
+                "Name": "Скрытые библиотеки"
             },
             "hideNames": {
-                "Hint": "Should enemy names be hidden in dialogs.",
-                "Name": "Hide Names"
+                "Hint": "Скрывает имена персонажей в диалогах.",
+                "Name": "Скрывать имена"
             },
             "itemCompendium": {
                 "Hint": "Item compendium used for certain automations. Ideally should point to your D&D Beyond item compendium.",
@@ -3096,12 +3272,12 @@
                 "Name": "Monster Compendium"
             },
             "movementPerformance": {
-                "0": "Low",
-                "1": "Medium",
-                "2": "High",
-                "3": "Ultra",
-                "Hint": "Accuracy mode for movement events. Higher accuracy modes will have a greater performance impact, especially on less powerful hardware.<br>• Ultra: Full accuracy.<br>• High: Ignores cover calculation when getting distance.<br>• Medium: As high, and waypoint movement is ignored, except for the final segment.<br>• Low: As Medium, and walls are ignored in distance calculations.",
-                "Name": "Movement Event Accuracy"
+                "0": "Низкая",
+                "1": "Средняя",
+                "2": "Высокая",
+                "3": "Максимальная",
+                "Hint": "Точность при срабатывании эффектов, связанных с передвижением. Высокие значения могут сильнее влиять на производительность, особенно на слабых устройствах.<br>• Максимальная: Полная точность.<br>• Высокая: Игнорируется укрытие.<br>• Средняя: Как высокая, но игнорируются точки маршрута, кроме последней.<br>• Низкая: Как средняя, но стены игнорируются в расчете дистанции",
+                "Name": "Точность передвижения"
             },
             "movementPerformanceDisable": {
                 "Hint": "Disables the warning notification that appears when movement event processing is taking a long time.",
@@ -3132,8 +3308,12 @@
                 "Name": "Quick Conditions"
             },
             "replaceStatusEffectIcons": {
-                "Hint": "When enabled, status icons will be replaced.",
-                "Name": "Replace Status Icons"
+                "Hint": "Если включено, то заменяет иконки состояний.",
+                "Name": "Заменить иконки состояний"
+            },
+            "rollTableCompendium": {
+                "Hint": "Roll Table compendium used for certain automations. Ideally should point to your D&D Beyond roll table compendium.",
+                "Name": "Roll Table Compendium"
             },
             "seenTour": {
                 "Hint": "Has the tour prompt been viewed? Automatically set.",
@@ -3266,6 +3446,7 @@
                 "FeySpiritFuming": "Fey Spirit (Fuming)",
                 "FeySpiritMirthful": "Fey Spirit (Mirthful)",
                 "FeySpiritTricksy": "Fey Spirit (Tricksy)",
+                "FeywildSpirit": "Feywild Spirit",
                 "FiendishSpirit": "Fiendish Spirit",
                 "FiendishSpiritDemon": "Fiendish Spirit (Demon)",
                 "FiendishSpiritDevil": "Fiendish Spirit (Devil)",
@@ -3274,6 +3455,7 @@
                 "FlamingSphere": "Flaming Sphere",
                 "Flumph": "Flumph",
                 "ForceSculpture": "Force Sculpture",
+                "ForestGuard": "Forest Guard",
                 "FormOfDread": "Form of Dread",
                 "GuardianOfFaith": "Guardian of Faith",
                 "HealingSpirit": "Healing Spirit",
@@ -3290,6 +3472,7 @@
                 "ShadowSpiritFury": "Shadow Spirit (Fury)",
                 "Shifter": "Shifter",
                 "Skeleton": "Skeleton",
+                "SpectralAnimals": "Spectral Animals",
                 "SpiritualWeapon": "Spiritual Weapon",
                 "Steed": "Steed",
                 "SteelDefender": "Steel Defender",
@@ -3428,19 +3611,19 @@
         "Units": {
             "Feet": "Футы",
             "Miles": "Мили",
-            "Units": "Мера:"
+            "Units": "Единицы:"
         },
         "UnknownTarget": "Неизвестная цель"
     },
     "CONTROLS": {
-        "LightingSelect": "Select Lights",
-        "SoundsSelect": "Select Sounds",
-        "TemplatesSelect": "Select Templates"
+        "LightingSelect": "Выберите источники света",
+        "SoundsSelect": "Выберите звуки",
+        "TemplatesSelect": "Выберите шаблоны"
     },
     "SIDEBAR": {
         "ACTIONS": {
             "CREATE": {
-                "ActiveEffect": "Create Active Effect"
+                "ActiveEffect": "Создать активный эффект"
             }
         }
     },
